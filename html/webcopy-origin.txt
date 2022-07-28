@@ -1,0 +1,1220 @@
+Uri: https://layerdrops.com/oxpins/main-html/index.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\index.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/backgrounds/main-slider-1-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\backgrounds\main-slider-1-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/main-slider-shape-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\main-slider-shape-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/backgrounds/main-slider-1-2.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\backgrounds\main-slider-1-2.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/backgrounds/main-slider-1-3.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\backgrounds\main-slider-1-3.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/about-one-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\about-one-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/causes-one-progress-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\causes-one-progress-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/backgrounds/become-volunteer-one-bg.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\backgrounds\become-volunteer-one-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/become-volunteer-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\become-volunteer-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/events-one-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\events-one-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/feature-one-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\feature-one-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/backgrounds/testimonial-one-bg.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\backgrounds\testimonial-one-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/testimonial-one-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\testimonial-one-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/faq-one-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\faq-one-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/backgrounds/faq-one-bg.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\backgrounds\faq-one-bg.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/backgrounds/counter-one-bg.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\backgrounds\counter-one-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/backgrounds/site-footer-bg.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\backgrounds\site-footer-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/favicons/apple-touch-icon.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\favicons\apple-touch-icon.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/favicons/favicon-32x32.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\favicons\favicon-32x32.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/favicons/favicon-16x16.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\favicons\favicon-16x16.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/favicons/site.webmanifest
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\favicons\site.webmanifest
+Content Type: application/manifest+json
+
+Uri: https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\css2.css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\css2-1.css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\css2-2.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/bootstrap/css/bootstrap.min.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\bootstrap\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/animate/animate.min.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\animate\animate.min.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/animate/custom-animate.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\animate\custom-animate.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/fontawesome/css/all.min.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\fontawesome\css\all.min.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jarallax/jarallax.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jarallax\jarallax.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery-magnific-popup\jquery.magnific-popup.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/nouislider/nouislider.min.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\nouislider\nouislider.min.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/nouislider/nouislider.pips.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\nouislider\nouislider.pips.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/odometer/odometer.min.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\odometer\odometer.min.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/swiper/swiper.min.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\swiper\swiper.min.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/oxpins-icons/style.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\oxpins-icons\style.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/tiny-slider/tiny-slider.min.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\tiny-slider\tiny-slider.min.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/reey-font/stylesheet.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\reey-font\stylesheet.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/owl-carousel/owl.carousel.min.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\owl-carousel\owl.carousel.min.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/owl-carousel/owl.theme.default.min.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\owl-carousel\owl.theme.default.min.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/bxslider/jquery.bxslider.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\bxslider\jquery.bxslider.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/bootstrap-select/css/bootstrap-select.min.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\bootstrap-select\css\bootstrap-select.min.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/vegas/vegas.min.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\vegas\vegas.min.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery-ui/jquery-ui.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery-ui\jquery-ui.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/timepicker/timePicker.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\timepicker\timePicker.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/css/oxpins.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\css\oxpins.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/css/oxpins-responsive.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\css\oxpins-responsive.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/become-volunteer.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\become-volunteer.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/index-one-page.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\index-one-page.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/index2.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\index2.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/index2-one-page.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\index2-one-page.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/index3.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\index3.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/index3-one-page.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\index3-one-page.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/index-dark.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\index-dark.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/about.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\about.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/volunteer.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\volunteer.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/volunteer-carousel.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\volunteer-carousel.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/gallery.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\gallery.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/gallery-carousel.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\gallery-carousel.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/faq.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\faq.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/404.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\404.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/donation.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\donation.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/donations-list.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\donations-list.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/donation-carousel.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\donation-carousel.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/donation-details.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\donation-details.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/donate-now.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\donate-now.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/events.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\events.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/events-carousel.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\events-carousel.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/event-details.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\event-details.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/news.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\news.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/news-carousel.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\news-carousel.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/news-sidebar.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\news-sidebar.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/news-sidebar-left.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\news-sidebar-left.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/news-details.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\news-details.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/contact.html
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\contact.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/gallery/gallery-1-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\gallery\gallery-1-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/gallery/gallery-1-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\gallery\gallery-1-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/gallery/gallery-1-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\gallery\gallery-1-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/gallery/gallery-1-4.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\gallery\gallery-1-4.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/gallery/gallery-1-5.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\gallery\gallery-1-5.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/logo-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\logo-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/main-menu-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\main-menu-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/icon/main-menu-heart-icon.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\icon\main-menu-heart-icon.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/home-showcase/home-showcase-1-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\home-showcase\home-showcase-1-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/home-showcase/home-showcase-1-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\home-showcase\home-showcase-1-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/home-showcase/home-showcase-1-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\home-showcase\home-showcase-1-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/home-showcase/home-showcase-1-4.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\home-showcase\home-showcase-1-4.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/main-slider-shape-2.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\main-slider-shape-2.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/about-one-img-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\about-one-img-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/icon/curved-circle-icon.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\icon\curved-circle-icon.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/about-one-shape-2.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\about-one-shape-2.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/about-one-shape-3.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\about-one-shape-3.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/about-one-shape-4.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\about-one-shape-4.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/causes-1-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\causes-1-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/causes-1-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\causes-1-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/causes-1-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\causes-1-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/events/events-1-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\events\events-1-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/events/events-1-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\events\events-1-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/events/events-1-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\events\events-1-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/brand/brand-1-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\brand\brand-1-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/brand/brand-1-2.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\brand\brand-1-2.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/brand/brand-1-3.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\brand\brand-1-3.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/brand/brand-1-4.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\brand\brand-1-4.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/brand/brand-1-5.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\brand\brand-1-5.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/brand/brand-1-6.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\brand\brand-1-6.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/testimonial/testimonial-img-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\testimonial\testimonial-img-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/testimonial/testimonial-img-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\testimonial\testimonial-img-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/testimonial/testimonial-img-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\testimonial\testimonial-img-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/testimonial/testimonial-img-4.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\testimonial\testimonial-img-4.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/testimonial/testimonial-1-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\testimonial\testimonial-1-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/testimonial/testimonial-1-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\testimonial\testimonial-1-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/testimonial/testimonial-1-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\testimonial\testimonial-1-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/blog/news-1-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\blog\news-1-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/blog/news-1-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\blog\news-1-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/blog/news-1-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\blog\news-1-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/footer-logo.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\footer-logo.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/logo-2.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\logo-2.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery/jquery-3.6.0.min.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery\jquery-3.6.0.min.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/bootstrap/js/bootstrap.bundle.min.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\bootstrap\js\bootstrap.bundle.min.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jarallax/jarallax.min.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jarallax\jarallax.min.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery-ajaxchimp\jquery.ajaxchimp.min.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery-appear/jquery.appear.min.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery-appear\jquery.appear.min.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery-circle-progress\jquery.circle-progress.min.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery-magnific-popup\jquery.magnific-popup.min.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery-validate/jquery.validate.min.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery-validate\jquery.validate.min.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/nouislider/nouislider.min.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\nouislider\nouislider.min.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/odometer/odometer.min.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\odometer\odometer.min.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/swiper/swiper.min.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\swiper\swiper.min.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/tiny-slider/tiny-slider.min.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\tiny-slider\tiny-slider.min.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/wnumb/wNumb.min.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\wnumb\wNumb.min.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/wow/wow.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\wow\wow.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/isotope/isotope.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\isotope\isotope.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/countdown/countdown.min.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\countdown\countdown.min.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/owl-carousel/owl.carousel.min.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\owl-carousel\owl.carousel.min.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/bxslider/jquery.bxslider.min.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\bxslider\jquery.bxslider.min.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/bootstrap-select/js/bootstrap-select.min.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\bootstrap-select\js\bootstrap-select.min.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/vegas/vegas.min.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\vegas\vegas.min.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery-ui/jquery-ui.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery-ui\jquery-ui.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/timepicker/timePicker.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\timepicker\timePicker.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/circleType/jquery.circleType.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\circleType\jquery.circleType.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/circleType/jquery.lettering.min.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\circleType\jquery.lettering.min.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/js/oxpins.js
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\js\oxpins.js
+Content Type: application/javascript
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/fontawesome/webfonts/fa-brands-400.eot
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\fontawesome\webfonts\fa-brands-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/fontawesome/webfonts/fa-brands-400.eot?
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\fontawesome\webfonts\fa-brands-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/fontawesome/webfonts/fa-brands-400.woff2
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\fontawesome\webfonts\fa-brands-400.woff2
+Content Type: font/woff2
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/fontawesome/webfonts/fa-brands-400.woff
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\fontawesome\webfonts\fa-brands-400.woff
+Content Type: font/woff
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/fontawesome/webfonts/fa-brands-400.ttf
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\fontawesome\webfonts\fa-brands-400.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/fontawesome/webfonts/fa-brands-400.svg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\fontawesome\webfonts\fa-brands-400.svg
+Content Type: image/svg+xml
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/fontawesome/webfonts/fa-regular-400.eot
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\fontawesome\webfonts\fa-regular-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/fontawesome/webfonts/fa-regular-400.eot?
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\fontawesome\webfonts\fa-regular-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/fontawesome/webfonts/fa-regular-400.woff2
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\fontawesome\webfonts\fa-regular-400.woff2
+Content Type: font/woff2
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/fontawesome/webfonts/fa-regular-400.woff
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\fontawesome\webfonts\fa-regular-400.woff
+Content Type: font/woff
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/fontawesome/webfonts/fa-regular-400.ttf
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\fontawesome\webfonts\fa-regular-400.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/fontawesome/webfonts/fa-regular-400.svg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\fontawesome\webfonts\fa-regular-400.svg
+Content Type: image/svg+xml
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/fontawesome/webfonts/fa-solid-900.eot
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\fontawesome\webfonts\fa-solid-900.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/fontawesome/webfonts/fa-solid-900.eot?
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\fontawesome\webfonts\fa-solid-900-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/fontawesome/webfonts/fa-solid-900.woff2
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\fontawesome\webfonts\fa-solid-900.woff2
+Content Type: font/woff2
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/fontawesome/webfonts/fa-solid-900.woff
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\fontawesome\webfonts\fa-solid-900.woff
+Content Type: font/woff
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/fontawesome/webfonts/fa-solid-900.ttf
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\fontawesome\webfonts\fa-solid-900.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/fontawesome/webfonts/fa-solid-900.svg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\fontawesome\webfonts\fa-solid-900.svg
+Content Type: image/svg+xml
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/oxpins-icons/fonts/icomoon.eot?gfq9l4
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\oxpins-icons\fonts\icomoon.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/oxpins-icons/fonts/icomoon.ttf?gfq9l4
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\oxpins-icons\fonts\icomoon.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/oxpins-icons/fonts/icomoon.woff?gfq9l4
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\oxpins-icons\fonts\icomoon.woff
+Content Type: font/woff
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/oxpins-icons/fonts/icomoon.svg?gfq9l4
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\oxpins-icons\fonts\icomoon.svg
+Content Type: image/svg+xml
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/reey-font/reey-regular-webfont.woff2
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\reey-font\reey-regular-webfont.woff2
+Content Type: font/woff2
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/reey-font/reey-regular-webfont.woff
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\reey-font\reey-regular-webfont.woff
+Content Type: font/woff
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery-ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery-ui\images\ui-bg_highlight-soft_75_cccccc_1x100.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery-ui/images/ui-bg_glass_75_e6e6e6_1x400.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery-ui\images\ui-bg_glass_75_e6e6e6_1x400.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery-ui/images/ui-bg_glass_75_dadada_1x400.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery-ui\images\ui-bg_glass_75_dadada_1x400.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery-ui\images\ui-bg_glass_65_ffffff_1x400.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery-ui/images/ui-bg_glass_55_fbf9ee_1x400.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery-ui\images\ui-bg_glass_55_fbf9ee_1x400.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery-ui/images/ui-bg_glass_95_fef1ec_1x400.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery-ui\images\ui-bg_glass_95_fef1ec_1x400.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery-ui/images/ui-icons_222222_256x240.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery-ui\images\ui-icons_222222_256x240.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery-ui/images/ui-icons_888888_256x240.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery-ui\images\ui-icons_888888_256x240.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery-ui/images/ui-icons_454545_256x240.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery-ui\images\ui-icons_454545_256x240.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery-ui/images/ui-icons_2e83ff_256x240.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery-ui\images\ui-icons_2e83ff_256x240.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/vendors/jquery-ui/images/ui-icons_cd0a0a_256x240.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\vendors\jquery-ui\images\ui-icons_cd0a0a_256x240.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/loader.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\loader.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/main-menu__volunteers-icon-shape.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\main-menu__volunteers-icon-shape.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/backgrounds/page-header-bg.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\backgrounds\page-header-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/team/become-volunteer-img-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\team\become-volunteer-img-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/backgrounds/main-slider-2-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\backgrounds\main-slider-2-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/backgrounds/main-slider-2-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\backgrounds\main-slider-2-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/backgrounds/main-slider-2-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\backgrounds\main-slider-2-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/feature-two-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\feature-two-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/causes-two-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\causes-two-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/testimonial-two-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\testimonial-two-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/backgrounds/help-bg.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\backgrounds\help-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/help-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\help-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/backgrounds/urgent-cause-bg.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\backgrounds\urgent-cause-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/brand-two-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\brand-two-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/main-slider-two-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\main-slider-two-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/main-slider-two-shape-2.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\main-slider-two-shape-2.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/about-two-img-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\about-two-img-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/about-two-img-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\about-two-img-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/about-two-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\about-two-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/about-two-shape-2.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\about-two-shape-2.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/about-two-shape-3.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\about-two-shape-3.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/testimonial/testimonial-2-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\testimonial\testimonial-2-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/testimonial/testimonial-2-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\testimonial\testimonial-2-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/testimonial/testimonial-2-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\testimonial\testimonial-2-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/team/team-1-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\team\team-1-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/team/team-1-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\team\team-1-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/team/team-1-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\team\team-1-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/team/team-1-4.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\team\team-1-4.jpg
+Content Type: image/jpeg
+
+Uri: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619:0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\maps\embed.html
+Content Type: text/html
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/blog/news-2-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\blog\news-2-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/blog/news-2-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\blog\news-2-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/blog/news-2-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\blog\news-2-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/blog/news-2-4.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\blog\news-2-4.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/backgrounds/main-slider-3-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\backgrounds\main-slider-3-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/backgrounds/main-slider-3-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\backgrounds\main-slider-3-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/backgrounds/main-slider-3-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\backgrounds\main-slider-3-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/about-three-help-shape.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\about-three-help-shape.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/feature-3-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\feature-3-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/feature-3-2.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\feature-3-2.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/feature-3-3.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\feature-3-3.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/backgrounds/causes-three-bg.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\backgrounds\causes-three-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/causes-three-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\causes-three-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/testimonial-three-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\testimonial-three-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/brand-three-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\brand-three-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/events-two-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\events-two-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/backgrounds/events-two-bg.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\backgrounds\events-two-bg.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/events-two-shape-2.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\events-two-shape-2.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/icon/main-menu-heart-icon-2.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\icon\main-menu-heart-icon-2.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/make-donation-img-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\make-donation-img-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/about-three-img.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\about-three-img.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/about-three-img-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\about-three-img-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/causes-3-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\causes-3-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/causes-3-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\causes-3-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/causes-3-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\causes-3-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/causes-3-4.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\causes-3-4.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/testimonial/testimonial-3-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\testimonial\testimonial-3-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/testimonial/testimonial-3-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\testimonial\testimonial-3-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/testimonial/testimonial-3-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\testimonial\testimonial-3-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/events/events-2-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\events\events-2-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/events/events-2-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\events\events-2-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/become-volunteer-shape-1-dark.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\become-volunteer-shape-1-dark.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/css/oxpins-dark.css
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\css\oxpins-dark.css
+Content Type: text/css
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/about-one-shape-3-dark.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\about-one-shape-3-dark.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/brand/brand-1-1-dark.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\brand\brand-1-1-dark.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/brand/brand-1-2-dark.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\brand\brand-1-2-dark.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/brand/brand-1-3-dark.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\brand\brand-1-3-dark.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/brand/brand-1-4-dark.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\brand\brand-1-4-dark.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/brand/brand-1-5-dark.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\brand\brand-1-5-dark.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/brand/brand-1-6-dark.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\brand\brand-1-6-dark.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/about-four-img-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\about-four-img-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/about-four-img-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\about-four-img-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/team/team-1-5.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\team\team-1-5.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/team/team-1-6.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\team\team-1-6.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/team/team-1-7.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\team\team-1-7.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/team/team-1-8.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\team\team-1-8.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/gallery/gallery-page-1-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\gallery\gallery-page-1-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/gallery/gallery-page-1-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\gallery\gallery-page-1-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/gallery/gallery-page-1-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\gallery\gallery-page-1-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/gallery/gallery-page-1-4.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\gallery\gallery-page-1-4.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/gallery/gallery-page-1-5.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\gallery\gallery-page-1-5.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/gallery/gallery-page-1-6.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\gallery\gallery-page-1-6.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/gallery/gallery-page-1-7.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\gallery\gallery-page-1-7.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/gallery/gallery-page-1-8.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\gallery\gallery-page-1-8.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/gallery/gallery-page-1-9.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\gallery\gallery-page-1-9.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/feature-four-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\feature-four-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/error-page-shape.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\error-page-shape.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/causes-1-4.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\causes-1-4.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/causes-1-5.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\causes-1-5.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/causes-1-6.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\causes-1-6.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/donations-list-progress-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\donations-list-progress-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/donations-list-img-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\donations-list-img-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/donations-list-img-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\donations-list-img-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/donations-list-img-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\donations-list-img-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/donations-list-img-4.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\donations-list-img-4.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/donations-list-img-5.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\donations-list-img-5.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/donation-details-donate-shape.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\donation-details-donate-shape.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/recent-donation-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\recent-donation-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/sidebar-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\sidebar-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/donation-details-img-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\donation-details-img-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/recent-donation-img-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\recent-donation-img-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/recent-donation-img-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\recent-donation-img-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/recent-donation-img-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\recent-donation-img-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/recent-donation-img-4.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\recent-donation-img-4.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/recent-donation-img-5.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\recent-donation-img-5.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/blog/comment-1-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\blog\comment-1-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/blog/comment-1-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\blog\comment-1-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/resources/donation-details-organizer-img.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\resources\donation-details-organizer-img.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/blog/lp-1-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\blog\lp-1-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/blog/lp-1-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\blog\lp-1-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/blog/lp-1-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\blog\lp-1-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/events/events-page-1-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\events\events-page-1-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/events/events-page-1-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\events\events-page-1-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/events/events-page-1-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\events\events-page-1-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/events/events-page-1-4.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\events\events-page-1-4.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/events/events-page-1-5.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\events\events-page-1-5.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/events/events-page-1-6.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\events\events-page-1-6.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/events/event-details-img-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\events\event-details-img-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/events/event-details-img-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\events\event-details-img-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/blog/news-1-4.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\blog\news-1-4.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/blog/news-1-5.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\blog\news-1-5.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/blog/news-1-6.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\blog\news-1-6.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/news-sidebar-shape-1.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\news-sidebar-shape-1.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/blog/news-sidebar-img-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\blog\news-sidebar-img-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/blog/news-sidebar-img-2.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\blog\news-sidebar-img-2.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/blog/news-sidebar-img-3.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\blog\news-sidebar-img-3.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/icon/news-sidebar-bottom-box-icon.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\icon\news-sidebar-bottom-box-icon.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/icon/news-sidebar__delivering-services-icon.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\icon\news-sidebar__delivering-services-icon.png
+Content Type: image/png
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/blog/news-details-img-1.jpg
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\blog\news-details-img-1.jpg
+Content Type: image/jpeg
+
+Uri: https://layerdrops.com/oxpins/main-html/assets/images/shapes/contact-three-shape.png
+File Name: C:\Users\ITGuest\Documents\BVB Website\layerdrops.com\oxpins\main-html\assets\images\shapes\contact-three-shape.png
+Content Type: image/png
+
