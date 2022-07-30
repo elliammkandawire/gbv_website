@@ -5,10 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title> <?php echo $company_data->shortname  ?> || <?php echo $company_data->motto  ?></title>
 	<!-- favicons Icons -->
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
-	<link rel="manifest" href="assets/images/favicons/site.webmanifest">
+	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo base_url()?>assets/images/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo base_url()?>assets/images/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url()?>assets/images/favicons/favicon-16x16.png">
+	<link rel="manifest" href="<?php echo base_url()?>assets/images/favicons/site.webmanifest">
 	<meta name="description" content="<?php echo $company_data->fullname  ?>">
 
 	<!-- fonts -->
@@ -23,30 +23,30 @@
 	<link href="../../css2-2.css?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 
-	<link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/vendors/animate/animate.min.css">
-	<link rel="stylesheet" href="assets/vendors/animate/custom-animate.css">
-	<link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
-	<link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css">
-	<link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css">
-	<link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css">
-	<link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css">
-	<link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css">
-	<link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css">
-	<link rel="stylesheet" href="assets/vendors/oxpins-icons/style.css">
-	<link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.min.css">
-	<link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css">
-	<link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css">
-	<link rel="stylesheet" href="assets/vendors/bxslider/jquery.bxslider.css">
-	<link rel="stylesheet" href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css">
-	<link rel="stylesheet" href="assets/vendors/vegas/vegas.min.css">
-	<link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css">
-	<link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/animate/animate.min.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/animate/custom-animate.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/jarallax/jarallax.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/nouislider/nouislider.min.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/nouislider/nouislider.pips.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/odometer/odometer.min.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/swiper/swiper.min.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/oxpins-icons/style.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/tiny-slider/tiny-slider.min.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/reey-font/stylesheet.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/owl-carousel/owl.theme.default.min.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/bxslider/jquery.bxslider.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/bootstrap-select/css/bootstrap-select.min.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/vegas/vegas.min.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/jquery-ui/jquery-ui.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/vendors/timepicker/timePicker.css">
 
 	<!-- template styles -->
-	<link rel="stylesheet" href="assets/css/oxpins.css">
-	<link rel="stylesheet" href="assets/css/oxpins-responsive.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/css/oxpins.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/css/oxpins-responsive.css">
 	<!--	style="margin-left: 18%; margin-right: 18%; b"-->
 	<style>
 		@media screen and (min-width: 768px) {
@@ -77,7 +77,7 @@
 				<div class="main-menu__wrapper-inner">
 					<div class="main-menu__left">
 						<div class="main-menu__logo">
-							<a href="<?php echo  base_url() ?>"><img style="object-fit: cover; height: 200px;" src="assets/images/resources/logo.png" alt=""></a>
+							<a href="<?php echo  base_url() ?>"><img style="object-fit: cover; height: 200px;" src="<?php echo base_url() ?>assets/images/resources/<?php echo $company_data->logo  ?>" alt=""></a>
 						</div>
 					</div>
 					<div class="main-menu__right">
@@ -109,7 +109,7 @@
 												<span class="icon-location"></span>
 											</div>
 											<div class="content">
-												<p><?php echo $company_data->postal_address ?></p>
+												<p>Our Office</p>
 												<h5><?php echo $company_data->location ?></h5>
 											</div>
 										</li>
@@ -139,19 +139,20 @@
 										</ul>
 									</li>
 									<li class="dropdown">
-										<a href="#">Events</a>
+										<a href="<?php echo  base_url()?>events">Events</a>
 									</li>
 									<li class="dropdown">
 										<a href="#">What we do</a>
 										<ul>
-											<li><a href="#">Advocacy</a></li>
-											<li><a href="#">Learning</a></li>
-											<li><a href="#">Programming</a></li>
+											<?php foreach ($services as $service): ?>
+											<li><a href="<?php echo base_url()?>service-details/<?php echo $service->slug ?>"><?php echo $service->name ?></a></li>
+											<?php endforeach;?>
 										</ul>
 									</li>
 									<li class="dropdown">
 										<a href="#">News</a>
 										<ul>
+											<li><a href="<?php echo base_url() ?>news">Articles</a></li>
 											<li><a href="#">Publications</a></li>
 											<li><a href="#">Webinars</a></li>
 										</ul>
