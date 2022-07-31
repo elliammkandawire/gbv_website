@@ -132,9 +132,9 @@
 										<a href="#">About</a>
 										<ul>
 											<li><a href="<?php echo base_url()?>aboutus">History</a></li>
-											<li><a href="<?php echo base_url()?>whoarewe">Who we are</a></li>
-											<li><a href="<?php echo base_url() ?>strategic_plan">Strategic Plans</a></li>
-											<li><a href="<?php echo base_url()?>member_organisations">Member Organisations</a></li>
+											<li><a href="<?php echo base_url()?>team">Who we are</a></li>
+<!--											<li><a href="--><?php //echo base_url() ?><!--strategic_plan">Strategic Plans</a></li>-->
+											<li><a href="<?php echo base_url()?>members">Member Organisations</a></li>
 											<li><a href="<?php echo base_url() ?>vacancies">Vacancies</a></li>
 										</ul>
 									</li>
@@ -142,7 +142,7 @@
 										<a href="<?php echo  base_url()?>events">Events</a>
 									</li>
 									<li class="dropdown">
-										<a href="#">What we do</a>
+										<a href="<?php echo base_url() ?>services">What we do</a>
 										<ul>
 											<?php foreach ($services as $service): ?>
 											<li><a href="<?php echo base_url()?>service-details/<?php echo $service->slug ?>"><?php echo $service->name ?></a></li>
@@ -153,8 +153,8 @@
 										<a href="#">News</a>
 										<ul>
 											<li><a href="<?php echo base_url() ?>news">Articles</a></li>
-											<li><a href="#">Publications</a></li>
-											<li><a href="#">Webinars</a></li>
+											<li><a href="<?php echo base_url()?>publications">Publications</a></li>
+<!--											<li><a href="#">Webinars</a></li>-->
 										</ul>
 									</li>
 									<li>

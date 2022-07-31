@@ -25,7 +25,7 @@
 					<div class="donation-details__left">
 						<div class="donation-details__top">
 							<div class="donation-details__img">
-								<img src="assets/images/resources/donation-details-img-1.jpg" alt="">
+								<img class="standard-image" src="<?php echo base_url() ?>assets/images/services/<?php echo $service_details->picture ?>" alt="">
 								<div class="donation-details__date">
 									<p><?php echo $service_details->name ?></p>
 								</div>

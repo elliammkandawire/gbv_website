@@ -25,7 +25,7 @@
 				<div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
 					<div class="causes-one__single">
 						<div class="causes-one__img">
-							<img class="standard-image" src="<?php echo base_url() ?>assets/images/resources/<?php echo $service->picture ?>" alt="">
+							<img class="standard-image" src="<?php echo base_url() ?>assets/images/services/<?php echo $service->picture ?>" alt="">
 							<div class="causes-one__cat">
 								<p><?php echo $service->name ?></p>
 							</div>
