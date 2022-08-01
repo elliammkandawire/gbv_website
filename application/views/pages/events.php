@@ -1,5 +1,4 @@
 
-
 	<!--Page Header Start-->
 	<section class="page-header">
 		<div class="page-header-bg" style="background-image: url(<?php echo base_url() ?>assets/images/backgrounds/<?php echo $company_data->header?>)">
@@ -25,7 +24,7 @@
 		<div class="container">
 			<div class="row">
 
-				<?php foreach ($events->content as $event): ?>
+				<?php foreach ($events["content"] as $event): ?>
 				<div class="col-xl-4 col-lg-6 col-md-6">
 					<!--Events One Single Start-->
 					<div class="events-one__single">
@@ -33,7 +32,7 @@
 							<img src="<?php echo base_url()?>assets/images/events/<?php echo $event->picture ?>" alt="">
 							<div class="events-one__date">
 								<p><?php
-									$date=date_create($event->eventDate);
+									$date=date_create($event->event_date);
 									echo date_format($date,"d M, Y");
 									?></p>
 							</div>
@@ -49,7 +48,6 @@
 					<!--Events One Single End-->
 				</div>
 				<?php  endforeach; ?>
-
 				<nav aria-label="Page navigation example">
 					<ul class="pagination">
 						<li class="page-item">
@@ -58,7 +56,7 @@
 								<span class="sr-only">Previous</span>
 							</a>
 						</li>
-						<?php for($i=0; $i<$events->totalPages; $i++){ ?>
+						<?php for($i=0; $i<json_decode($events["totalPages"])[0]->pages; $i++){ ?>
 							<li class="page-item"><a class="page-link" href="<?php echo base_url() ?>events?page=<?php echo $i ?>"><?php echo $i+1 ?></a></li>
 						<?php } ?>
 						<li class="page-item">

@@ -3,15 +3,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 include_once (dirname(__FILE__) . "/BaseController.php");
 
 class Vacancies extends BaseController {
+	private $table="vacancy";
 	public function index()
 	{
-		$data["data"]=json_decode($this->data_model->getFromEndpoint(API_URL."vacancy/all"));
+		$data["data"]=$this->readData($this->table);
 		$data["title"]="vacancies";
 		$this->addWebsiteHeader("pages/vacancies",$data);
 	}
 
 	public function details($slug=null){
-		$data["data"]=json_decode($this->data_model->getFromEndpoint(API_URL."vacancy/single/".$slug));
+		$data["data"]=$this->readSingle($this->table,"slug",$slug);
 		$data["title"]="vacancy_details";
 		$this->addWebsiteHeader("pages/vacancy-details",$data);
 	}

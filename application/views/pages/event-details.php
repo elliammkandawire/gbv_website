@@ -25,7 +25,7 @@
 						<div class="event-details__top">
 							<div class="event-details__date">
 								<p><?php
-									$date=date_create($event_details->eventDate);
+									$date=date_create($event_details->event_date);
 									echo date_format($date,"d M, Y");
 									?></p>
 							</div>
@@ -40,7 +40,7 @@
 							<ul class="list-unstyled event-details__info-list">
 								<li>
 									<span>Time:</span>
-									<p>8:00 am to 12:30 pm</p>
+									<p><?php echo date_format($date,"H:m");?></p>
 								</li>
 								<li>
 									<span>Date:</span>

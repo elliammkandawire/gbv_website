@@ -20,7 +20,7 @@
 		<div class="container">
 			<div class="row">
 
-				<?php foreach ($news->content as $article): ?>
+				<?php foreach ($news["content"] as $article): ?>
 				<!--News One Single Start-->
 				<div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
 					<div class="news-one__single">
@@ -71,7 +71,7 @@
 							<span class="sr-only">Previous</span>
 						</a>
 					</li>
-					<?php for($i=0; $i<$news->totalPages; $i++){ ?>
+					<?php for($i=0; $i<json_decode($news["totalPages"])[0]->pages; $i++){ ?>
 					  <li class="page-item"><a class="page-link" href="<?php echo base_url() ?>news?page=<?php echo $i ?>"><?php echo $i+1 ?></a></li>
 					<?php } ?>
 					<li class="page-item">
