@@ -39,7 +39,7 @@
 												$date=date_create($latest->date);
 												echo date_format($date,"d M, Y");
 												?>
-											</span>
+											   </span>
 												<a href="<?php echo base_url() ?>news-details/<?php echo $latest->slug ?>"><?php  echo $latest->name ?></a>
 											</h3>
 										</div>

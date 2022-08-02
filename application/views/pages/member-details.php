@@ -34,6 +34,12 @@
 									<div class="sidebar__post-content">
 										<h3>
 											<span class="sidebar__post-content-meta"><i class="fas fa-user-circle"></i> By admin</span>
+											<span class="sidebar__post-content-meta"><i class="fas fa-clock"></i>
+												<?php
+												$date=date_create($latest->date);
+												echo date_format($date,"d M, Y");
+												?>
+											   </span>
 											<a href="<?php echo base_url() ?>news-details/<?php echo $latest->slug ?>"><?php  echo $latest->name ?></a>
 										</h3>
 									</div>
