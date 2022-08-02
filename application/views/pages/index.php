@@ -63,7 +63,7 @@
 				<div class="about-one__left">
 					<div class="about-one__img-box wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
 						<div class="about-one__img">
-							<img src="assets/images/resources/about-one-img-1.jpg" alt="">
+							<img src="<?php echo base_url() ?>assets/images/resources/<?php echo $company_data->about_picture ?>" alt="">
 						</div>
 						<div class="about-one__img-border"></div>
 						<div class="about-one__curved-circle-box">

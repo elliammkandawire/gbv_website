@@ -1,19 +1,3 @@
-<!--Page Header Start-->
-	<section class="page-header">
-		<div class="page-header-bg" style="background-image: url(<?php echo base_url() ?>assets/images/backgrounds/<?php echo $company_data->header?>)">
-		</div>
-		<div class="container">
-			<div class="page-header__inner">
-				<ul class="thm-breadcrumb list-unstyled">
-					<li><a href="<?php echo base_url() ?>">Home</a></li>
-					<li><span>/</span></li>
-					<li class="active">News details</li>
-				</ul>
-				<h2>News details</h2>
-			</div>
-		</div>
-	</section>
-	<!--Page Header End-->
 
 	<!--News details Start-->
 	<section class="news-details">
@@ -36,7 +20,7 @@
 						</div>
 						<div class="comment-form">
 							<h3 class="comment-form__title">Leave a comment</h3>
-							<form action="assets/inc/sendemail.php" class="comment-one__form contact-form-validated" novalidate="novalidate">
+							<form action="#" class="comment-one__form contact-form-validated" novalidate="novalidate">
 								<div class="row">
 									<div class="col-xl-6">
 										<div class="comment-form__input-box">
@@ -85,38 +69,18 @@
 									<div class="sidebar__post-content">
 										<h3>
 											<span class="sidebar__post-content-meta"><i class="fas fa-user-circle"></i> By admin</span>
+											<span class="sidebar__post-content-meta"><i class="fas fa-clock"></i>
+												<?php
+												$date=date_create($latest->date);
+												echo date_format($date,"d M, Y");
+												?>
+											</span>
 											<a href="<?php echo base_url() ?>news-details/<?php echo $latest->slug ?>"><?php  echo $latest->name ?></a>
 										</h3>
 									</div>
 								</li>
 								<?php endforeach; ?>
 							</ul>
-						</div>
-						<div class="sidebar__single sidebar__category">
-							<div class="sidebar-shape-1" style="background-image: url(assets/images/shapes/sidebar-shape-1.png);"></div>
-							<h3 class="sidebar__title">Categories</h3>
-							<ul class="sidebar__category-list list-unstyled">
-								<li><a href="news-details.html">Donations <span class="icon-right-arrow"></span></a>
-								</li>
-								<li class="active"><a href="news-details.html">Charity <span class="icon-right-arrow"></span></a></li>
-								<li><a href="news-details.html">Fundraising <span class="icon-right-arrow"></span></a>
-								</li>
-								<li><a href="news-details.html">Food & Water <span class="icon-right-arrow"></span></a></li>
-								<li><a href="news-details.html">Kids Education <span class="icon-right-arrow"></span></a>
-								</li>
-							</ul>
-						</div>
-						<div class="sidebar__single sidebar__tags">
-							<div class="sidebar-shape-1" style="background-image: url(assets/images/shapes/sidebar-shape-1.png);"></div>
-							<h3 class="sidebar__title">Tags</h3>
-							<div class="sidebar__tags-list">
-								<a href="#">fundraising</a>
-								<a href="#">charity</a>
-								<a href="#">donation</a>
-								<a href="#">water</a>
-								<a href="#">kids</a>
-								<a href="#">Education</a>
-							</div>
 						</div>
 					</div>
 				</div>

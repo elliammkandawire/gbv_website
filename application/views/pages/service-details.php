@@ -1,22 +1,5 @@
 
 
-	<!--Page Header Start-->
-	<section class="page-header">
-		<div class="page-header-bg" style="background-image: url(<?php echo base_url() ?>assets/images/backgrounds/<?php echo $company_data->header?>)">
-		</div>
-		<div class="container">
-			<div class="page-header__inner">
-				<ul class="thm-breadcrumb list-unstyled">
-					<li><a href="<?php echo base_url() ?>">Home</a></li>
-					<li><span>/</span></li>
-					<li class="active">Service details</li>
-				</ul>
-				<h2>Services details</h2>
-			</div>
-		</div>
-	</section>
-	<!--Page Header End-->
-
 	<!--Donation Details Start-->
 	<section class="donation-details">
 		<div class="container">
@@ -51,6 +34,12 @@
 										<div class="sidebar__post-content">
 											<h3>
 												<span class="sidebar__post-content-meta"><i class="fas fa-user-circle"></i> By admin</span>
+												<span class="sidebar__post-content-meta"><i class="fas fa-clock"></i>
+												<?php
+												$date=date_create($latest->date);
+												echo date_format($date,"d M, Y");
+												?>
+											</span>
 												<a href="<?php echo base_url() ?>news-details/<?php echo $latest->slug ?>"><?php  echo $latest->name ?></a>
 											</h3>
 										</div>

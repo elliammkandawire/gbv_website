@@ -33,7 +33,7 @@ defined('DIR_WRITE_MODE')  OR define('DIR_WRITE_MODE', 0755);
 defined('API_URL')  OR define('API_URL', 'http://127.0.0.1:8006/api/');
 defined('COMPANY_DETAILS')  OR define('COMPANY_DETAILS', API_URL.'company/all');
 defined('ALL_MEMBERS')  OR define('ALL_MEMBERS', API_URL.'member/all');
-defined('PDF_VIEWER')  OR define('PDF_VIEWER', 'https://mozilla.github.io/pdf.js/web/viewer.html');
+defined('PDF_VIEWER')  OR define('PDF_VIEWER', 'http://127.0.0.1:8080/www.gbv.mw.com/web/viewer.html');
 
 /*
 |--------------------------------------------------------------------------

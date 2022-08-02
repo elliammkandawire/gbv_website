@@ -5,9 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title> <?php echo $company_data->shortname  ?> || <?php echo $company_data->motto  ?></title>
 	<!-- favicons Icons -->
-	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo base_url()?>assets/images/favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo base_url()?>assets/images/favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url()?>assets/images/favicons/favicon-16x16.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo base_url()?>assets/images/loader.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo base_url()?>assets/images/loader.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url()?>assets/images/loader.png">
 	<link rel="manifest" href="<?php echo base_url()?>assets/images/favicons/site.webmanifest">
 	<meta name="description" content="<?php echo $company_data->fullname  ?>">
 
@@ -125,7 +125,7 @@
 							<div class="main-menu__main-menu-box">
 								<a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
 								<ul class="main-menu__list">
-									<li class="dropdown current megamenu">
+									<li>
 										<a href="<?php echo  base_url() ?>">Home </a>
 									</li>
 									<li class="dropdown">
@@ -138,7 +138,7 @@
 											<li><a href="<?php echo base_url() ?>vacancies">Vacancies</a></li>
 										</ul>
 									</li>
-									<li class="dropdown">
+									<li>
 										<a href="<?php echo  base_url()?>events">Events</a>
 									</li>
 									<li class="dropdown">

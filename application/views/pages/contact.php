@@ -1,19 +1,4 @@
-   <!--Page Header Start-->
-	<section class="page-header">
-		<div class="page-header-bg" style="background-image: url(<?php echo base_url() ?>assets/images/backgrounds/<?php echo $company_data->header?>)">
-		</div>
-		<div class="container">
-			<div class="page-header__inner">
-				<ul class="thm-breadcrumb list-unstyled">
-					<li><a href="<?php echo base_url() ?>">Home</a></li>
-					<li><span>/</span></li>
-					<li class="active">Contact</li>
-				</ul>
-				<h2>Contact us</h2>
-			</div>
-		</div>
-	</section>
-	<!--Page Header End-->
+
 
 	<!--Contact Three Start-->
 	<section class="contact-three">
