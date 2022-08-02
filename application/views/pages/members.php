@@ -1,41 +1,35 @@
 
+		<!--Donation Start-->
+		<section class="donation">
+			<div class="container">
+				<div class="row">
 
-	<!--Donations List Start-->
-	<section class="donations-list">
-		<div class="container">
-			<div class="donations-list__inner">
-
-				<?php foreach ($members as $member): ?>
-				<!--Donations List Single Start-->
-				<div class="donations-list__single">
-					<div class="row">
-						<div class="col-xl-6 col-lg-6">
-							<div class="donations-list__img">
-								<img src="<?php echo base_url() ?>assets/images/members/<?php echo $member->picture ?>" alt="">
+					<?php foreach ($members as $member): ?>
+					<!--Causes One Single Start-->
+					<div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+						<div class="causes-one__single">
+							<div class="causes-one__img">
+								<img style="object-fit: cover; height: 100px;" src="<?php echo base_url() ?>assets/images/members/<?php echo $member->picture ?>" alt="">
+								<div class="causes-one__cat">
+									<p><?php echo $member->name ?></p>
+								</div>
 							</div>
-						</div>
-						<div class="col-xl-6 col-lg-6">
-							<div class="donations-list__right">
-								<div class="donations-list__content">
-									<div class="donations-list__category">
-										<p><?php echo $member->name ?></p>
-									</div>
-									<h3 class="donations-list__title"><a href="<?php echo base_url() ?>member-details/<?php echo $member->slug ?>"><?php  echo $member->name ?></a></h3>
-									<p class="donations-list__text"><?php echo substr($member->description,0,100) ?>...</p>
-									<div class="donations-list__progress">
-										<div class="news-one__read-more">
-											<a href="<?php echo base_url() ?>member-details/<?php echo $member->slug ?>"> <span class="icon-right-arrow"></span> Read
-												More</a>
-										</div>
+							<div class="causes-one__content">
+								<h3 class="causes-one__title"><a href="<?php echo base_url() ?>member-details/<?php echo $member->slug ?>"><?php echo $member->name ?></a>
+								</h3>
+								<p class="causes-one__text"><?php echo substr($member->description,0,100) ?>...</p>
+								<div class="causes-one__progress">
+									<div class="news-one__read-more">
+										<a href="<?php echo base_url() ?>member-details/<?php echo $member->slug ?>"> <span class="icon-right-arrow"></span> Read
+											More</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+					<!--Causes One Single End-->
+					<?php endforeach; ?>
 				</div>
-				<!--Donations List Single End-->
-				<?php endforeach; ?>
 			</div>
-		</div>
-	</section>
-	<!--Donations List End-->
+		</section>
+		<!--Donation End-->
