@@ -1,3 +1,62 @@
+<!--Main Slider Start-->
+<section class="main-slider clearfix">
+	<div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
+                "effect": "fade",
+                "pagination": {
+                "el": "#main-slider-pagination",
+                "type": "bullets",
+                "clickable": true
+                },
+                "navigation": {
+                "nextEl": "#main-slider__swiper-button-next",
+                "prevEl": "#main-slider__swiper-button-prev"
+                },
+                "autoplay": {
+                "delay": 5000
+                }}'>
+		<div class="swiper-wrapper">
+
+			<?php foreach ($sliders as $slider): ?>
+			<div class="swiper-slide">
+				<div class="image-layer" style="background-image: url(<?php echo base_url() ?>assets/images/backgrounds/<?php  echo $slider->picture ?>);"></div>
+				<!-- /.image-layer -->
+
+				<div class="main-slider-shape-1" style="background-image: url(<?php echo base_url() ?>assets/images/backgrounds/<?php echo $slider->picture ?>);"></div>
+				<div class="main-slider-shape-2 float-bob-x">
+					<img src="<?php echo base_url() ?>assets/images/backgrounds/<?php echo $slider->picture ?>" alt="">
+				</div>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-6 col-lg-8">
+							<div class="main-slider__content">
+								<p class="main-slider__sub-title" style="margin-bottom: 10px;"><?php echo $slider->title ?></p>
+<!--								<h2 class="main-slider__title">--><?php //echo $slider->title ?><!--</h2>-->
+								<div class="main-slider__btn-box">
+									<a href="<?php echo base_url() ?>aboutUs" class="thm-btn main-slider__btn"> About Us</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<?php endforeach; ?>
+		</div>
+
+		<!-- If we need navigation buttons -->
+		<div class="main-slider__nav">
+			<div class="swiper-button-prev" id="main-slider__swiper-button-next">
+				<i class="icon-left-arrow"></i>
+			</div>
+			<div class="swiper-button-next" id="main-slider__swiper-button-prev">
+				<i class="icon-right-arrow"></i>
+			</div>
+		</div>
+
+	</div>
+</section>
+<!--Main Slider End-->
+
 
 <!--Events Page Start-->
 <section class="events-page">
@@ -12,7 +71,7 @@
 							<p>Who we are</p>
 						</div>
 						<div class="events-one__content">
-							<h3 class="events-one__title"><a href="event-details.html">Who we are</a></h3>
+							<h3 class="events-one__title"><a href="<?php echo base_url() ?>aboutus">Who we are</a></h3>
 						</div>
 					</div>
 				</div>

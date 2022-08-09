@@ -6,7 +6,7 @@ class Members extends BaseController {
 	private $table="member";
 	public function index()
 	{
-		$data["data"]=$this->readData($this->table);
+		$data["data"]=$this->readDataWithOrder($this->table,"name","ASC");
 		$data["title"]="members";
 		$this->addWebsiteHeader("pages/members",$data);
 	}

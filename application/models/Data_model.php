@@ -106,6 +106,14 @@ class Data_model extends CI_Model {
 		$this->db->order_by($order_by, $order_value);
 		return $this->db->get()->result();
 	}
+
+	public function readDataWithOrder($table_name, $order_by, $order_value){
+		$this->db->select("*");
+		$this->db->from($table_name);
+		$this->db->order_by($order_by, $order_value);
+		$this->db->where("status", true);
+		return $this->db->get()->result();
+	}
 	public function readData($table_name){
 		$this->db->select("*");
 		$this->db->from($table_name);

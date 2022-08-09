@@ -57,4 +57,14 @@ $route['service-details/(:any)'] = 'services/details/$1';
 $route['member-details/(:any)'] = 'members/details/$1';
 $route['vacancy-details/(:any)'] = 'vacancies/details/$1';
 $route['404_override'] = 'NotFound';
+
+$route['login'] = 'user';
+$route['auth'] = 'user/login';
+$route['dashboard'] = 'home/dashboard';
+$route['logout'] = 'user/logout';
+
+$route['update_company'] = 'home/update_company';
+$route['update_slider'] = 'slider/update_slider';
+
+$route['admin_about'] = 'home/admin_about_us';
 $route['translate_uri_dashes'] = FALSE;
