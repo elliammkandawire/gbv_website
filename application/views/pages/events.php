@@ -12,15 +12,13 @@
 					<div class="events-one__single">
 						<div class="events-one__img">
 							<img src="<?php echo base_url()?>assets/images/events/<?php echo $event->picture ?>" alt="">
-							<div class="events-one__date">
-								<p><?php
-									$date=date_create($event->event_date);
-									echo date_format($date,"d M, Y");
-									?></p>
-							</div>
+<!--							<div class="events-one__date">-->
+<!---->
+<!--							</div>-->
+							<?php $date=date_create($event->event_date); ?>
 							<div class="events-one__content">
 								<ul class="list-unstyled events-one__meta">
-									<li><i class="fas fa-clock"></i><?php echo date_format($date,"H:m"); ?></li>
+									<li><i class="fas fa-clock"></i><?php echo date_format($date,"d M, Y").": ".date_format($date,"H:m"); ?></li>
 									<li><i class="fas fa-map-marker-alt"></i><?php echo $event->location ?></li>
 								</ul>
 								<h3 class="events-one__title"><a href="<?php echo base_url() ?>event-details/<?php echo $event->slug ?>"><?php echo $event->name ?></a></h3>

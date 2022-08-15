@@ -10,10 +10,7 @@
 					<!--Events One Single Start-->
 					<div class="events-one__single">
 						<div class="events-one__img">
-							<img src="<?php echo base_url() ?>assets/images/publications/<?php echo $publication->picture ?>" alt="">
-							<div class="events-one__date">
-								<p>23 May, 2022</p>
-							</div>
+							<img style="object-fit: cover; height: 300px;" src="<?php echo base_url() ?>assets/images/publications/<?php echo $publication->picture ?>" alt="">
 							<div class="events-one__content">
 								<h3 class="events-one__title"><a target="_blank" href="<?php echo PDF_VIEWER.'?file='.$publication->pdf_link  ?>"><?php echo $publication->name ?></a></h3>
 							</div>

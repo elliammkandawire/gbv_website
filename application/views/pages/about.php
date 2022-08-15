@@ -24,7 +24,17 @@
 						<div class="accrodion-grp" data-grp-name="faq-one-accrodion">
 							<div class="accrodion active">
 								<div class="accrodion-title">
-									<h4>Core Values</h4>
+									<h4>Objective</h4>
+								</div>
+								<div class="accrodion-content">
+									<div class="inner">
+										<p><?php echo $company_data->objective ?></p>
+									</div><!-- /.inner -->
+								</div>
+							</div>
+							<div class="accrodion">
+								<div class="accrodion-title">
+									<h4>Specific objectives</h4>
 								</div>
 								<div class="accrodion-content">
 									<div class="inner">
@@ -39,16 +49,6 @@
 								<div class="accrodion-content">
 									<div class="inner">
 										<p><?php echo $company_data->motto ?></p>
-									</div><!-- /.inner -->
-								</div>
-							</div>
-							<div class="accrodion">
-								<div class="accrodion-title">
-									<h4>Objective</h4>
-								</div>
-								<div class="accrodion-content">
-									<div class="inner">
-										<p><?php echo $company_data->objective ?></p>
 									</div><!-- /.inner -->
 								</div>
 							</div>

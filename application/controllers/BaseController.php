@@ -42,6 +42,16 @@ class BaseController extends CI_Controller {
 		$this->load->view('dashboard/dashboard_footer');
 	}
 
+	public function url($url)
+	{
+		$url = preg_replace('~[^\\pL0-9_]+~u', '-', $url);
+		$url = trim($url, "-");
+		$url = iconv("utf-8", "us-ascii//TRANSLIT", $url);
+		$url = strtolower($url);
+		$url = preg_replace('~[^-a-z0-9_]+~', '', $url);
+		return $url;
+	}
+
 	public function addDashboardHeaderAndFooterAndMenu($page, $additional_data){
 		$this->checkIfLoggedIn();
 		$data[$additional_data["title"]]=$additional_data["data"];

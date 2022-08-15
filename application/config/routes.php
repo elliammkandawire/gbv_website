@@ -67,4 +67,11 @@ $route['update_company'] = 'home/update_company';
 $route['update_slider'] = 'slider/update_slider';
 
 $route['admin_about'] = 'home/admin_about_us';
+$route['services_admin'] = 'services/admin_dashboard';
+
+$route['members_admin'] = 'members/admin_dashboard';
+$route['admin_resources'] = 'publications/resources_admin';
+$route['team_admin'] = 'team/admin_dashboard';
+$route['news_admin'] = 'news/news_admin';
+$route['events_admin'] = 'events/admin_dashboard';
 $route['translate_uri_dashes'] = FALSE;

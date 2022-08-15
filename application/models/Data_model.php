@@ -80,7 +80,7 @@ class Data_model extends CI_Model {
 	}
 
 	public function paginated($table_name, $offset, $size){
-		$sql="Select * from $table_name LIMIT $offset, $size";
+		$sql="Select * from $table_name ORDER BY date DESC LIMIT $offset, $size";
 		$query = $this->db->query($sql);
 		return json_encode($query->result_array());
 	}

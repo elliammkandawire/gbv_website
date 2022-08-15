@@ -7,7 +7,7 @@ class User extends BaseController {
 		parent::__construct();
 		$this->load->helper('url');
 		$this->load->model('users_model');
-        $this->load->library('javascript');
+//        $this->load->library('javascript');
         $this->load->library('form_validation');
         $this->load->library('email');
 	}

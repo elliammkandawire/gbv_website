@@ -18,7 +18,7 @@
 									</p>
                                 </div>
                                 <div class="footer-widget__btn">
-                                    <a href="<?php echo base_url() ?>donation"> <span class="fa fa-heart"></span>Donate now</a>
+                                    <a target="_blank" href="<?php echo $company_data->facebook ?>"> <span class="fab fa-facebook"></span>Follow Us</a>
                                 </div>
                             </div>
                         </div>
@@ -26,11 +26,12 @@
                             <div class="footer-widget__column footer-widget__links clearfix">
                                 <h3 class="footer-widget__title">Links</h3>
                                 <ul class="footer-widget__links-list list-unstyled clearfix">
+                                    <li><a href="<?php echo base_url() ?>">Home</a></li>
                                     <li><a href="<?php echo base_url() ?>aboutus">About us</a></li>
+                                    <li><a href="<?php echo base_url() ?>services">What we do</a></li>
+                                    <li><a href="<?php  echo base_url() ?>events">Events</a></li>
+                                    <li><a href="<?php echo base_url() ?>news">News</a></li>
                                     <li><a href="<?php echo base_url() ?>contact">Contact</a></li>
-                                    <li><a href="<?php  echo base_url() ?>news">Latest News</a></li>
-                                    <li><a href="<?php echo base_url() ?>events">Recent Events</a></li>
-                                    <li><a href="<?php echo base_url() ?>donations">Donations</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -68,8 +69,10 @@
                                     </li>
                                 </ul>
                                 <div class="site-footer__social">
-                                    <a href="<?php echo $company_data->twitter ?>"><i class="fab fa-twitter"></i></a>
-                                    <a href="<?php echo $company_data->facebook ?>"><i class="fab fa-facebook"></i></a>
+                                    <a target="_blank" href="<?php echo $company_data->twitter ?>"><i class="fab fa-twitter"></i></a>
+                                    <a target="_blank" href="<?php echo $company_data->facebook ?>"><i class="fab fa-facebook"></i></a>
+									<a target="_blank" href="<?php echo $company_data->linkedin  ?>"><i class="fab fa-linkedin-in"></i></a>
+									<a target="_blank" href="<?php echo $company_data->instagram ?>"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>

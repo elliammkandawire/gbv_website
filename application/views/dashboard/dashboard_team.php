@@ -10,7 +10,7 @@
                 <strong>Feedback!</strong> <?php echo $message ?>
             </div>
             <?php $_SESSION['message']=null; } ?>
-        <header class="w3-container w3-blue">
+        <header class="w3-container main-color">
             <h5>Latest to Oldest</h5>
             <button class="btn btn-success" data-toggle="modal" data-target="#add" onclick="add_summary_note()" data-whatever="@mdo"><i class="fa fa-plus"></i> Add</button>
         </header>
@@ -29,20 +29,30 @@
             </div>
         </div>
     </div>
-    <div id="container" style="width: 100%;">
-        <?php foreach($data as $item): ?>
-            <div class="gallery w3-container">
-                <a target="_blank" href="<?php echo base_url(); ?>images\news\<?php echo $item->picture; ?>">
-                    <img src="<?php echo base_url(); ?>images\team\<?php echo $item->picture; ?>" alt="" style="object-fit: cover; height: 200px;" >
-                </a>
-                <div class="desc"><?php echo $item->fullname;  ?></div>
-                <div class="container">
-                    <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#edit" data-whatever="@mdo" onclick="edit_team('<?php echo $item->id; ?>')"><i class="fa fa-edit"></i></button>
-                    <button class="btn btn-warning btn-sm" onclick="delete_('<?php echo $item->id; ?>','<?php echo $item->fullname; ?>','Confirm deleting team member with name ','team/delete')"><i class="fa fa-trash"></i></button>
-                </div>
-            </div>
-        <?php endforeach; ?>
-    </div>
+	<div id="container" style="width: 100%;" class="jumbotron">
+		<table class="w3-table w3-table-stripped table-bordered">
+			<thead>
+			<th>Name</th>
+			<th>Position</th>
+			<th>Facebook</th>
+			<th>Twitter</th>
+			<th>Action</th>
+			</thead>
+			<tbody>
+			<?php foreach($data as $item): ?>
+				<td><?php echo $item->name;  ?></td>
+				<td><?php echo $item->position;  ?></td>
+				<td><?php echo $item->facebook_url;  ?></td>
+				<td><?php echo $item->twitter_url;  ?></td>
+				<td>
+					<button style="margin-bottom: 5px" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#edit" data-whatever="@mdo" onclick="edit_team('<?php echo $item->slug; ?>')"><i class="fa fa-edit"></i></button>
+					<button class="btn btn-warning btn-sm" onclick="delete_('<?php echo $item->slug; ?>','<?php echo $item->name; ?>','Confirm deleting team with title ','team/delete')"><i class="fa fa-trash"></i></button></td>
+				</tr>
+			<?php endforeach; ?>
+			</tr>
+			</tbody>
+		</table>
+	</div>
 </div>
 </div><!--end col-lg-4-->
 
@@ -67,23 +77,17 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form method="POST" action="add_team" enctype="multipart/form-data">
+				<?php echo form_open_multipart('team/addTeam');?>
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="recipient-name" class="col-form-label">Full Name:</label>
-                                <input type="text" class="form-control" name="fullname"  required="">
+                                <input type="text" class="form-control" name="name"  required="">
                             </div>
                             <div class="form-group">
                                 <label for="message-text" class="col-form-label">Position</label>
                                 <input  type="text" class="form-control" name="position">
                             </div>
-
-                            <div class="form-group">
-                                <label for="message-text" class="col-form-label">Email</label>
-                                <input  type="email" class="form-control" name="email">
-                            </div>
-
                             <div class="form-group">
                                 <label for="message-text" class="col-form-label">Twitter Link</label>
                                 <input  type="text" class="form-control" value="#" name="twitter_link">
@@ -93,14 +97,14 @@
                                 <label for="message-text" class="col-form-label">Facebook Link</label>
                                 <input  type="text" class="form-control" value="#" name="facebook_link">
                             </div>
-
-                            <div class="form-group">
-                                <label for="message-text" class="col-form-label">Status</label>
-                                <select class="form-control" name="status">
-                                    <option value="1">Active</option>
-                                    <option value="0">Deleted</option>
-                                </select>
-                            </div>
+							<div class="form-group">
+								<label for="message-text" class="col-form-label">Category</label>
+								<select class="form-control" name="teams_group">
+									<option value="management_group">Management Group</option>
+									<option value="other_group">Technical Group</option>
+									<option value="technical_group">Others</option>
+								</select>
+							</div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
@@ -112,8 +116,6 @@
                                 <img src="#" alt="" style="object-fit: cover; height: 200px; width: 50%;" id="picture">
                             </div>
                             <br>
-
-
                         </div>
                     </div>
             </div>
@@ -121,7 +123,7 @@
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 <button type="submit" class="btn btn-primary">Save</button>
             </div>
-            </form>
+			<?php echo form_close(); ?>
         </div>
     </div>
 </div>
@@ -131,54 +133,41 @@
 
 
 <div class="modal fade" id="edit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document" style="width: 60%;">
+    <div class="modal-dialog" role="document" style="width: 50%;">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Edit News</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Edit</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"">
                 <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
 
-                <form method="POST" action="update_team" enctype="multipart/form-data">
+				<?php echo form_open_multipart('team/updateTeam');?>
                     <div class="row">
                         <div class="col-lg-6">
-                            <input type="hidden" class="form-control" name="id" id="edit_id" required="">
+                            <input type="hidden" class="form-control" name="slug" id="slug" required="">
+                            <input type="hidden" class="form-control" name="teams_group" id="teams_group" required="">
                             <input type="hidden" class="form-control" id="url"  value="<?php echo base_url(); ?>">
 
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Full Name:</label>
-                                <input type="text" class="form-control" name="fullname" id="edit_fullname"  required="">
-                            </div>
+							<div class="form-group">
+								<label for="recipient-name" class="col-form-label">Full Name:</label>
+								<input type="text" class="form-control" id="name" name="name"  required="">
+							</div>
                             <div class="form-group">
                                 <label for="message-text" class="col-form-label">Position</label>
                                 <input  type="text" class="form-control" name="position" id="edit_position">
                             </div>
 
                             <div class="form-group">
-                                <label for="message-text" class="col-form-label">Email</label>
-                                <input  type="email" class="form-control" name="email" id="edit_email">
-                            </div>
-
-                            <div class="form-group">
                                 <label for="message-text" class="col-form-label">Twitter Link</label>
-                                <input  type="text" class="form-control" name="twitter_link" id="edit_twitter_link">
+                                <input  type="text" class="form-control" id="twitter_link" name="twitter_link" id="edit_twitter_link">
                             </div>
 
                             <div class="form-group">
                                 <label for="message-text" class="col-form-label">Facebook Link</label>
-                                <input  type="text" class="form-control" name="facebook_link" id="edit_facebook_link">
+                                <input  type="text" class="form-control" id="facebook_link" name="facebook_link" id="edit_facebook_link">
                             </div>
-
-                            <div class="form-group">
-                                <label for="message-text" class="col-form-label">Status</label>
-                                <select class="form-control" name="status" id="edit_status">
-                                    <option value="1">Active</option>
-                                    <option value="0">Deleted</option>
-                                </select>
-                            </div>
-
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
@@ -199,7 +188,7 @@
                 <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="reflesh('news_admin')">Close</button>
                 <button type="submit" class="btn btn-primary">Edit</button>
             </div>
-            </form>
+			<?php echo form_close(); ?>
         </div>
     </div>
 </div>

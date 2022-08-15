@@ -4,21 +4,23 @@ function add_summary_note() {
 function edit_service(id){
   //show("loader")
   setValue("slug",id)
-	let request=getValue("url")+"services/get_details"+"/"+id
+	console.log()
+	let request=getValue("url")+"services/get_service_details"+"/"+id
 	connect(request,"",false,function(outcome){
+		//console.log(outcome)
        let data=JSON.parse(outcome)
-        console.log(data)
-       setValue("title",data.title)
-       setValue("short_description",data.short_description)
-       selectFromDropdown("icon",data.icon)
-       setValue("content",data.content)
+		//console.log(data)
+       setValue("title",data.name)
+       setValue("content",data.description)
+       setValue("current_picture",data.picture)
+		get("picture_edit").src=getValue("url")+"assets/images/services/"+data.picture
        //hide("loader")
     })
   $('.summernote').summernote();
 }
 
 
-function edit_statistics(id){
+function edit_statisti(id){
     //show("loader")
     setValue("id",id)
     let request=getValue("url")+"Basic_Sta/get_details"+"/"+id
@@ -178,28 +180,23 @@ function edit_book(id){
 }
 
 function edit_event(id){
-  show("loader")
-  setValue("id",id)
-	let url=getValue("url")+"get_event_details"
-	let request=url+"/"+id
+  //show("loader")
+  setValue("slug",id)
+	let request=getValue("url")+"events/get_item_details"+"/"+id
 	
 	//alert(request)
 	connect(request,"",false,function(outcome){
-		  //alert(outcome)
+		//console.log(outcome)
        let data=JSON.parse(outcome)
-       // alert(data.service_picture)
+       setValue("current_picture",data.picture)
+       setValue("name",data.name)
+       setValue("details",data.details)
+       setValue("event_date",data.event_date)
+       setValue("event_time",data.event_time)
+       setValue("location",data.location)
+       get("picture_edit").src=getValue("url")+"assets/images/events/"+data.picture
 
-       setValue("event_name_edit",data.event_name)
-       setValue("event_start_date_edit",data.event_start_date)
-       setValue("event_start_time_edit",data.event_start_time)
-       setValue("event_details_edit",data.event_details)
-       setValue("event_end_date_edit",data.event_end_date)
-       setValue("event_end_time_edit",data.event_end_time)
-       setValue("event_location_edit",data.event_location)
-       setValue("event_artwork_hidden",data.event_artwork)
-       get("event_artwork_edit").src=getValue("url")+"assets/images/event/"+data.event_artwork
-
-      hide("loader")
+      //hide("loader")
     })
     $('.summernote').summernote();
 }
@@ -207,24 +204,20 @@ function edit_event(id){
 
 function edit_news(id){
   //show("loader")
-  setValue("edit_slug",id)
-	let url=getValue("url")+"news/get_details"
+  setValue("slug",id)
+	let url=getValue("url")+"news/get_news_details"
   let request=url+"/"+id
   
 	
 	//alert(request)
 	connect(request,"",false,function(outcome){
-		  //alert(outcome)
        let data=JSON.parse(outcome)
        console.log(data)
 
-       setValue("edit_title",data.title)
-       setValue("edit_location",data.location)
-       setValue("edit_content",data.content)
+       setValue("name",data.name)
+       setValue("details",data.details)
        setValue("current_picture",data.picture)
-       setValue("edit_date",data.date)
-       selectFromDropdown("edit_status",data.status)
-       get("picture_edit").src=getValue("url")+"images/news/"+data.picture
+       get("picture_edit").src=getValue("url")+"assets/images/blog/"+data.picture
 
       //hide("loader")
     })
@@ -241,27 +234,18 @@ function selectFromDropdown(id, value){
     }
 }
 function edit_member(id){
-  show("loader")
-  setValue("id",id)
-	let url=getValue("url")+"home/get_member_details"
+  setValue("slug",id)
+	let url=getValue("url")+"members/get_member_details"
 	let request=url+"/"+id
 	
 	//alert(request)
 	connect(request,"",false,function(outcome){
 		  //alert(outcome)
        let data=JSON.parse(outcome)
-       //alert(data)
-
-       setValue("shortname",data.shortname)
-       setValue("fullname",data.fullname)
-       setValue("profile",data.profile)
-       setValue("email",data.email)
-       setValue("phone",data.phone)
+       setValue("name",data.name)
        setValue("website",data.website)
-       setValue("campus_current",data.campus)
-       get("campus_edit").src=getValue("url")+"assets/images/members/"+data.campus
-
-      hide("loader")
+       setValue("current_picture",data.picture)
+       get("picture_edit").src=getValue("url")+"assets/images/members/"+data.picture
     })
     $('.summernote').summernote();
 }
@@ -296,24 +280,21 @@ function edit_student(id){
 }
 function edit_team(id){
   //show("loader")
-     setValue("edit_id",id)
-	let url=getValue("url")+"team/get_details"
+     setValue("slug",id)
+	let url=getValue("url")+"team/get_team_details"
 	let request=url+"/"+id
 	
 	//alert(request)
 	connect(request,"",false,function(outcome){
-	    console.log(outcome)
        let data=JSON.parse(outcome)
-       //alert(data)
 
-       setValue("edit_fullname",data.fullname)
+       setValue("name",data.name)
        setValue("edit_position",data.position)
-       setValue("edit_email",data.email)
-       setValue("edit_twitter_link",data.twitter_link)
-       setValue("edit_facebook_link",data.facebook_link)
+       setValue("twitter_link",data.twitter_url)
+       setValue("facebook_link",data.facebook_url)
        setValue("current_picture",data.picture)
-	    selectFromDropdown("edit_status",data.status)
-       get("picture_edit").src=getValue("url")+"images/team/"+data.picture
+       setValue("teams_group",data.teams_group)
+       get("picture_edit").src=getValue("url")+"assets/images/team/"+data.picture
 
       //hide("loader")
     })
@@ -371,27 +352,18 @@ function edit_publication(id){
     })
     $('.summernote').summernote();
 }
-function edit_research(id){
-  show("loader")
-  setValue("id",id)
-	let url=getValue("url")+"home/get_research_details"
+function edit_resource(id){
+    setValue("slug",id)
+	let url=getValue("url")+"publications/get_resources_details"
 	let request=url+"/"+id
-	
-	//alert(request)
+
 	connect(request,"",false,function(outcome){
-		  //alert(outcome)
        let data=JSON.parse(outcome)
-
        setValue("name",data.name)
-       setValue("url_now",data.url)
+       setValue("pdf_link",data.pdf_link)
        setValue("details",data.details)
-       setValue("time",data.time)
-       setValue("owner",data.owner)
-       setValue("downloads",data.downloads)
-       setValue("picture_now",data.picture)
-       get("picture_edit").src=getValue("url")+"assets/images/research/"+data.picture
-
-      hide("loader")
+       setValue("current_picture",data.picture)
+       get("picture_edit").src=getValue("url")+"assets/images/publications/"+data.picture
     })
     $('.summernote').summernote();
 }
@@ -478,19 +450,19 @@ function edit_children_corner(id){
 }
 
 
-function edit_event(id){
-	setValue("slug",id)
-	let url=`events_details/${id}`
-	connect(url,"",false,function(outcome){
-		console.log(outcome)
-		let data=JSON.parse(outcome)
-		setValue("name",data.name)
-		setValue("place",data.place)
-		setValue("time",data.time)
-		setValue("content",data.content)
-		setValue("occation_date",data.occation_date)
-	})
-}
+// function edit_event(id){
+// 	setValue("slug",id)
+// 	let url=`events_details/${id}`
+// 	connect(url,"",false,function(outcome){
+// 		console.log(outcome)
+// 		let data=JSON.parse(outcome)
+// 		setValue("name",data.name)
+// 		setValue("place",data.place)
+// 		setValue("time",data.time)
+// 		setValue("content",data.content)
+// 		setValue("occation_date",data.occation_date)
+// 	})
+// }
 
 
 

@@ -19,7 +19,8 @@
 				<nav aria-label="Page navigation">
 					<ul class="pagination">
 						<?php foreach($pagenation as $page_number): ?>
-							<li class="page-item <?php if($page==$page_number){ echo "active";} ?>"><a class="page-link active" href="<?php echo base_url() ?>news_admin?page=<?php echo $page_number ?>"><?php echo $page_number ?></a></li>
+							<li class="page-item <?php if($page==$page_number){ echo "active";} ?>"><a class="page-link active" href="<?php echo base_url() ?>events_admin?page=<?php echo $page_number ?>"><?php echo $page_number ?></a></li>
+
 						<?php endforeach; ?>
 					</ul>
 				</nav>
@@ -41,17 +42,21 @@
 
 		<table class="w3-table w3-table-stripped table-bordered">
 			<thead>
-			<th>Member</th>
-			<th>Website</th>
+			<th>Title</th>
+			<th>Short description</th>
+			<th>Date</th>
+			<th>Time</th>
 			<th>Action</th>
 			</thead>
 			<tbody>
 			<?php foreach($data as $item): ?>
 				<td><?php echo $item->name;  ?></td>
 				<td><?php echo $item->details;  ?></td>
+				<td><?php echo $item->event_date;  ?></td>
+				<td><?php echo $item->event_time;  ?></td>
 				<td>
-					<button style="margin-bottom: 5px" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#edit" data-whatever="@mdo" onclick="edit_news('<?php echo $item->slug; ?>')"><i class="fa fa-edit"></i></button>
-					<button class="btn btn-warning btn-sm" onclick="delete_('<?php echo $item->slug; ?>','<?php echo $item->name; ?>','Confirm deleting news with title ','news/delete')"><i class="fa fa-trash"></i></button></td>
+					<button style="margin-bottom: 5px" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#edit" data-whatever="@mdo" onclick="edit_event('<?php echo $item->slug; ?>')"><i class="fa fa-edit"></i></button>
+					<button class="btn btn-warning btn-sm" onclick="delete_('<?php echo $item->slug; ?>','<?php echo $item->name; ?>','Confirm deleting event with title ','events/delete')"><i class="fa fa-trash"></i></button></td>
 				</tr>
 			<?php endforeach; ?>
 			</tr>
@@ -82,7 +87,7 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<?php echo form_open_multipart('news/addNew');?>
+				<?php echo form_open_multipart('events/addEvent');?>
 				<div class="col-lg-6">
 					<input type="hidden" class="form-control" id="url"  value="<?php echo base_url(); ?>">
 
@@ -92,16 +97,31 @@
 					</div>
 					<div class="form-group">
 						<label for="message-text" class="col-form-label">Content:</label>
-						<textarea class="form-control summernote" rows="15" name="details" style="white-space: pre-wrap;"></textarea>
+						<textarea class="form-control summernote"  rows="15" name="details" style="white-space: pre-wrap;"></textarea>
+					</div>
+
+					<div class="form-group">
+						<label for="message-text" class="col-form-label">Event Date:</label>
+						<input type="date"  name="event_date" class="form-control" required>
+					</div>
+
+					<div class="form-group">
+						<label for="message-text" class="col-form-label">Event Time:</label>
+						<input type="time" name="event_time" class="form-control" required>
 					</div>
 				</div>
 				<div class="col-lg-6">
 					<div class="form-group">
-						<label for="message-text" class="col-form-label">Logo:</label>
+						<label for="message-text" class="col-form-label">Location:</label>
+						<input type="text" name="location" class="form-control" required>
+					</div>
+					<div class="form-group">
+						<label for="message-text" class="col-form-label">News Picture:</label>
 						<input type="file" required class="form-control" name="picture" accept=".jpg, .png, .jpeg, .gif"  onchange="readURL(this,'picture')">
 					</div>
+
 					<div>
-						<img src="#" alt="" style="width: 100%;" id="picture">
+						<img src="#" alt="" style="object-fit: cover; height: 200px; width: 50%;" id="picture">
 					</div>
 					<br>
 				</div>
@@ -130,7 +150,7 @@
 			</div>
 			<div class="modal-body">
 
-				<?php echo form_open_multipart('news/EditExisting');?>
+				<?php echo form_open_multipart('events/updateEvent');?>
 				<div class="row">
 					<div class="col-lg-6">
 						<input type="hidden" class="form-control" name="slug" id="slug" required="">
@@ -140,22 +160,34 @@
 							<label for="recipient-name" class="col-form-label">Title:</label>
 							<input type="text" class="form-control" id="name" name="name"  required="">
 						</div>
-
 						<div class="form-group">
 							<label for="message-text" class="col-form-label">Content:</label>
 							<textarea class="form-control summernote"  id="details" rows="15" name="details" style="white-space: pre-wrap;"></textarea>
 						</div>
 
+						<div class="form-group">
+							<label for="message-text" class="col-form-label">Event Date:</label>
+							<input type="date" id="event_date" name="event_date" class="form-control" required>
+						</div>
+
+						<div class="form-group">
+							<label for="message-text" class="col-form-label">Event Time:</label>
+							<input type="time" id="event_time" name="event_time" class="form-control" required>
+						</div>
 					</div>
 					<div class="col-lg-6">
 						<div class="form-group">
-							<label for="message-text" class="col-form-label">Logo:</label>
+							<label for="message-text" class="col-form-label">Location:</label>
+							<input type="text" id="location" name="location" class="form-control" required>
+						</div>
+						<div class="form-group">
+							<label for="message-text" class="col-form-label">News Picture:</label>
 							<input type="file" class="form-control" name="picture" accept=".jpg, .png, .jpeg, .gif"  onchange="readURL(this,'picture_edit')">
 							<input type="hidden" id="current_picture" name="current_picture">
 						</div>
 
 						<div>
-							<img src="#" alt="" style="width: 100%;" id="picture_edit">
+							<img src="#" alt="" style="object-fit: cover; height: 200px; width: 50%;" id="picture_edit">
 						</div>
 						<br>
 					</div>
@@ -170,3 +202,10 @@
 		</div>
 	</div>
 </div>
+
+
+
+
+
+
+<?php

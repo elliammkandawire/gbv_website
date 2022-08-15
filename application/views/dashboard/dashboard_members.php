@@ -19,7 +19,7 @@
 				<nav aria-label="Page navigation">
 					<ul class="pagination">
 						<?php foreach($pagenation as $page_number): ?>
-							<li class="page-item <?php if($page==$page_number){ echo "active";} ?>"><a class="page-link active" href="<?php echo base_url() ?>news_admin?page=<?php echo $page_number ?>"><?php echo $page_number ?></a></li>
+							<li class="page-item <?php if($page==$page_number){ echo "active";} ?>"><a class="page-link active" href="<?php echo base_url() ?>members_admin?page=<?php echo $page_number ?>"><?php echo $page_number ?></a></li>
 						<?php endforeach; ?>
 					</ul>
 				</nav>
@@ -48,10 +48,10 @@
 			<tbody>
 			<?php foreach($data as $item): ?>
 				<td><?php echo $item->name;  ?></td>
-				<td><?php echo $item->details;  ?></td>
+				<td><?php echo $item->website;  ?></td>
 				<td>
-					<button style="margin-bottom: 5px" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#edit" data-whatever="@mdo" onclick="edit_news('<?php echo $item->slug; ?>')"><i class="fa fa-edit"></i></button>
-					<button class="btn btn-warning btn-sm" onclick="delete_('<?php echo $item->slug; ?>','<?php echo $item->name; ?>','Confirm deleting news with title ','news/delete')"><i class="fa fa-trash"></i></button></td>
+					<button style="margin-bottom: 5px" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#edit" data-whatever="@mdo" onclick="edit_member('<?php echo $item->slug; ?>')"><i class="fa fa-edit"></i></button>
+					<button class="btn btn-warning btn-sm" onclick="delete_('<?php echo $item->slug; ?>','<?php echo $item->name; ?>','Confirm deleting member with title ','members/delete')"><i class="fa fa-trash"></i></button></td>
 				</tr>
 			<?php endforeach; ?>
 			</tr>
@@ -82,7 +82,7 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<?php echo form_open_multipart('news/addNew');?>
+				<?php echo form_open_multipart('members/addMember');?>
 				<div class="col-lg-6">
 					<input type="hidden" class="form-control" id="url"  value="<?php echo base_url(); ?>">
 
@@ -90,9 +90,11 @@
 						<label for="recipient-name" class="col-form-label">Title:</label>
 						<input type="text" class="form-control" name="name"  required="">
 					</div>
+
+
 					<div class="form-group">
-						<label for="message-text" class="col-form-label">Content:</label>
-						<textarea class="form-control summernote" rows="15" name="details" style="white-space: pre-wrap;"></textarea>
+						<label for="message-text" class="col-form-label">Website:</label>
+						<input type="text"  name="website" class="form-control" required>
 					</div>
 				</div>
 				<div class="col-lg-6">
@@ -130,7 +132,7 @@
 			</div>
 			<div class="modal-body">
 
-				<?php echo form_open_multipart('news/EditExisting');?>
+				<?php echo form_open_multipart('members/updateMember');?>
 				<div class="row">
 					<div class="col-lg-6">
 						<input type="hidden" class="form-control" name="slug" id="slug" required="">
@@ -142,8 +144,8 @@
 						</div>
 
 						<div class="form-group">
-							<label for="message-text" class="col-form-label">Content:</label>
-							<textarea class="form-control summernote"  id="details" rows="15" name="details" style="white-space: pre-wrap;"></textarea>
+							<label for="message-text" class="col-form-label">Event Date:</label>
+							<input type="text" id="website" name="website" class="form-control" required>
 						</div>
 
 					</div>

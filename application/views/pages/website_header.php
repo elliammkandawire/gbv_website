@@ -90,7 +90,7 @@
 												<span class="icon-phone-call"></span>
 											</div>
 											<div class="content">
-												<p>Helpline</p>
+												<p>Office Line</p>
 												<h5><a href="tel:<?php echo $company_data->phone ?>"><?php echo $company_data->phone ?></a></h5>
 											</div>
 										</li>
@@ -118,6 +118,8 @@
 								<div class="main-menu__right-top-social">
 									<a target="_blank" href="<?php echo $company_data->twitter ?>"><i class="fab fa-twitter"></i></a>
 									<a target="_blank" href="<?php echo $company_data->facebook ?>"><i class="fab fa-facebook"></i></a>
+									<a target="_blank" href="<?php echo $company_data->linkedin  ?>"><i class="fab fa-linkedin-in"></i></a>
+									<a target="_blank" href="<?php echo $company_data->instagram ?>"><i class="fab fa-instagram"></i></a>
 								</div>
 							</div>
 						</div>
@@ -129,31 +131,31 @@
 										<a href="<?php echo  base_url() ?>">Home </a>
 									</li>
 									<li class="dropdown">
-										<a href="#">About</a>
+										<a href="<?php echo base_url() ?>aboutus">About Us</a>
 										<ul>
 											<li><a href="<?php echo base_url()?>aboutus">History</a></li>
 											<li><a href="<?php echo base_url()?>team">Who we are</a></li>
 <!--											<li><a href="--><?php //echo base_url() ?><!--strategic_plan">Strategic Plans</a></li>-->
 											<li><a href="<?php echo base_url()?>members">Member Organisations</a></li>
-											<li><a href="<?php echo base_url() ?>vacancies">Vacancies</a></li>
+<!--											<li><a href="--><?php //echo base_url() ?><!--vacancies">Vacancies</a></li>-->
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="<?php echo base_url() ?>services">What we do</a>
+										<ul>
+											<?php foreach ($services as $service): ?>
+												<li><a href="<?php echo base_url()?>service-details/<?php echo $service->slug ?>"><?php echo $service->name ?></a></li>
+											<?php endforeach;?>
 										</ul>
 									</li>
 									<li>
 										<a href="<?php echo  base_url()?>events">Events</a>
 									</li>
 									<li class="dropdown">
-										<a href="<?php echo base_url() ?>services">What we do</a>
-										<ul>
-											<?php foreach ($services as $service): ?>
-											<li><a href="<?php echo base_url()?>service-details/<?php echo $service->slug ?>"><?php echo $service->name ?></a></li>
-											<?php endforeach;?>
-										</ul>
-									</li>
-									<li class="dropdown">
 										<a href="#">News</a>
 										<ul>
 											<li><a href="<?php echo base_url() ?>news">Articles</a></li>
-											<li><a href="<?php echo base_url()?>publications">Publications</a></li>
+											<li><a href="<?php echo base_url()?>publications">Resources</a></li>
 <!--											<li><a href="#">Webinars</a></li>-->
 										</ul>
 									</li>
@@ -165,8 +167,8 @@
 							<div class="main-menu__main-menu-content-box">
 								<div class="main-menu__search-cat-btn-box">
 									<div class="main-menu__btn-box">
-										<a href="<?php echo base_url() ?>donate" class="main-menu__btn"> <span class="fa fa-heart"></span> Donate
-											now</a>
+										<a href="<?php echo $company_data->facebook ?>" class="main-menu__btn"> <span class="fab fa-facebook"></span> Follow Us
+											</a>
 									</div>
 								</div>
 							</div>

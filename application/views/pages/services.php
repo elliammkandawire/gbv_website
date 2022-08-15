@@ -11,9 +11,9 @@
 					<div class="causes-one__single">
 						<div class="causes-one__img">
 							<img class="standard-image" src="<?php echo base_url() ?>assets/images/services/<?php echo $service->picture ?>" alt="">
-							<div class="causes-one__cat">
-								<p><?php echo $service->name ?></p>
-							</div>
+<!--							<div class="causes-one__cat">-->
+<!--								<p>--><?php //echo $service->name ?><!--</p>-->
+<!--							</div>-->
 						</div>
 						<div class="causes-one__content">
 							<h3 class="causes-one__title"><a href="<?php echo base_url() ?>service-details/<?php echo $service->slug ?>"><?php echo $service->name ?></a>
