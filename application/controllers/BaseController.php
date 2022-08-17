@@ -13,6 +13,7 @@ class BaseController extends CI_Controller {
 		$data["sliders"]=$this->readDataWithOrder("slider","position","ASC");
 		$data["latest_news"]=$this->data_model->selectFewElements("news","date", "desc", "5");
 		$data["services"]=$this->data_model->readData("services");
+		$data["gallery"]=$this->readDataWithOrder("gallary","date","DESC");
 		$data[$additional_data["title"]]=$additional_data["data"];
 		$this->load->view('pages/header_for_bigger_slider',$data);
 		$this->load->view($page);

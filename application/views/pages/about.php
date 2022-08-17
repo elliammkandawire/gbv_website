@@ -8,9 +8,9 @@
 				<div class="col-xl-12 col-lg-12">
 					<div class="faq-one__left">
 						<div class="section-title text-left">
-							<span class="section-title__tagline">About <?php echo $company_data->fullname ?></span>
-							<h2 class="section-title__title"><?php echo $company_data->motto  ?>
-							</h2>
+
+							<h6 class="section-title__title">About <?php echo $company_data->fullname  ?>
+							</h6>
 						</div>
 						<p class="faq-one__text-1">
 							<?php echo $company_data->background ?>
@@ -73,142 +73,28 @@
 	<!--Gallery Page Start-->
 	<section class="gallery-page">
 		<div class="container">
+			<div class="section-title text-center">
+				<span class="section-title__tagline">Gallery</span>
+				<h5>Our Recent Activities</h5>
+			</div>
 			<div class="row">
+				<?php foreach ($gallery as $picture): ?>
 				<!--Gallery Page Single Start-->
 				<div class="col-xl-4 col-lg-6 col-md-6">
 					<div class="gallery-page__single">
 						<div class="gallery-page__img">
-							<img src="assets/images/gallery/gallery-page-1-1.jpg" alt="">
-							<a href="assets/images/gallery/gallery-page-1-1.jpg" class="img-popup"></a>
+							<img style="object-fit: cover; height: 250px;" src="<?php echo  base_url()?>assets/images/gallery/<?php echo $picture->picture ?>" alt="">
+							<a href="<?php echo  base_url()?>assets/images/gallery/<?php echo $picture->picture ?>" class="img-popup"></a>
 							<!-- /.img-popup -->
 							<div class="gallery-page__content">
-								<p class="gallery-page__sub-title">Charity</p>
-								<h5 class="gallery-page__title"><a href="gallery.html">Education</a></h5>
+								<p class="gallery-page__sub-title"><?php  echo $picture->caption ?></p>
+								<h5 class="gallery-page__title"><a href="#"><?php echo $picture->name ?></a></h5>
 							</div>
 						</div>
 					</div>
 				</div>
 				<!--Gallery Page Single End-->
-				<!--Gallery Page Single Start-->
-				<div class="col-xl-4 col-lg-6 col-md-6">
-					<div class="gallery-page__single">
-						<div class="gallery-page__img">
-							<img src="assets/images/gallery/gallery-page-1-2.jpg" alt="">
-							<a href="assets/images/gallery/gallery-page-1-2.jpg" class="img-popup"></a>
-							<!-- /.img-popup -->
-							<div class="gallery-page__content">
-								<p class="gallery-page__sub-title">Charity</p>
-								<h5 class="gallery-page__title"><a href="gallery.html">Education</a></h5>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--Gallery Page Single End-->
-				<!--Gallery Page Single Start-->
-				<div class="col-xl-4 col-lg-6 col-md-6">
-					<div class="gallery-page__single">
-						<div class="gallery-page__img">
-							<img src="assets/images/gallery/gallery-page-1-3.jpg" alt="">
-							<a href="assets/images/gallery/gallery-page-1-3.jpg" class="img-popup"></a>
-							<!-- /.img-popup -->
-							<div class="gallery-page__content">
-								<p class="gallery-page__sub-title">Charity</p>
-								<h5 class="gallery-page__title"><a href="gallery.html">Education</a></h5>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--Gallery Page Single End-->
-				<!--Gallery Page Single Start-->
-				<div class="col-xl-4 col-lg-6 col-md-6">
-					<div class="gallery-page__single">
-						<div class="gallery-page__img">
-							<img src="assets/images/gallery/gallery-page-1-4.jpg" alt="">
-							<a href="assets/images/gallery/gallery-page-1-4.jpg" class="img-popup"></a>
-							<!-- /.img-popup -->
-							<div class="gallery-page__content">
-								<p class="gallery-page__sub-title">Charity</p>
-								<h5 class="gallery-page__title"><a href="gallery.html">Education</a></h5>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--Gallery Page Single End-->
-				<!--Gallery Page Single Start-->
-				<div class="col-xl-4 col-lg-6 col-md-6">
-					<div class="gallery-page__single">
-						<div class="gallery-page__img">
-							<img src="assets/images/gallery/gallery-page-1-5.jpg" alt="">
-							<a href="assets/images/gallery/gallery-page-1-5.jpg" class="img-popup"></a>
-							<!-- /.img-popup -->
-							<div class="gallery-page__content">
-								<p class="gallery-page__sub-title">Charity</p>
-								<h5 class="gallery-page__title"><a href="gallery.html">Education</a></h5>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--Gallery Page Single End-->
-				<!--Gallery Page Single Start-->
-				<div class="col-xl-4 col-lg-6 col-md-6">
-					<div class="gallery-page__single">
-						<div class="gallery-page__img">
-							<img src="assets/images/gallery/gallery-page-1-6.jpg" alt="">
-							<a href="assets/images/gallery/gallery-page-1-6.jpg" class="img-popup"></a>
-							<!-- /.img-popup -->
-							<div class="gallery-page__content">
-								<p class="gallery-page__sub-title">Charity</p>
-								<h5 class="gallery-page__title"><a href="gallery.html">Education</a></h5>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--Gallery Page Single End-->
-				<!--Gallery Page Single Start-->
-				<div class="col-xl-4 col-lg-6 col-md-6">
-					<div class="gallery-page__single">
-						<div class="gallery-page__img">
-							<img src="assets/images/gallery/gallery-page-1-7.jpg" alt="">
-							<a href="assets/images/gallery/gallery-page-1-7.jpg" class="img-popup"></a>
-							<!-- /.img-popup -->
-							<div class="gallery-page__content">
-								<p class="gallery-page__sub-title">Charity</p>
-								<h5 class="gallery-page__title"><a href="gallery.html">Education</a></h5>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--Gallery Page Single End-->
-				<!--Gallery Page Single Start-->
-				<div class="col-xl-4 col-lg-6 col-md-6">
-					<div class="gallery-page__single">
-						<div class="gallery-page__img">
-							<img src="assets/images/gallery/gallery-page-1-8.jpg" alt="">
-							<a href="assets/images/gallery/gallery-page-1-8.jpg" class="img-popup"></a>
-							<!-- /.img-popup -->
-							<div class="gallery-page__content">
-								<p class="gallery-page__sub-title">Charity</p>
-								<h5 class="gallery-page__title"><a href="gallery.html">Education</a></h5>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--Gallery Page Single End-->
-				<!--Gallery Page Single Start-->
-				<div class="col-xl-4 col-lg-6 col-md-6">
-					<div class="gallery-page__single">
-						<div class="gallery-page__img">
-							<img src="assets/images/gallery/gallery-page-1-9.jpg" alt="">
-							<a href="assets/images/gallery/gallery-page-1-9.jpg" class="img-popup"></a>
-							<!-- /.img-popup -->
-							<div class="gallery-page__content">
-								<p class="gallery-page__sub-title">Charity</p>
-								<h5 class="gallery-page__title"><a href="gallery.html">Education</a></h5>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--Gallery Page Single End-->
+				<?php endforeach; ?>
 			</div>
 		</div>
 	</section>

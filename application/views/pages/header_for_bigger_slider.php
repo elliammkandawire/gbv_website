@@ -118,7 +118,7 @@
 										<a href="<?php echo base_url() ?>aboutus">About Us</a>
 										<ul>
 											<li><a href="<?php echo base_url() ?>aboutus">History</a></li>
-											<li><a href="<?php echo base_url() ?>team">WHo we are</a></li>
+											<li><a href="<?php echo base_url() ?>team">Who we are</a></li>
 											<li><a href="<?php echo base_url() ?>members">Members</a></li>
 										</ul>
 									</li>
@@ -183,7 +183,7 @@
 				<ul class="thm-breadcrumb list-unstyled">
 					<li><a href="<?php echo base_url() ?>">Home</a></li>
 					<li><span>/</span></li>
-					<li class="active">Pages</li>
+					<li class="active"><?php echo ucwords(str_replace("-"," ",$this->uri->segment(1))) ?></li>
 				</ul>
 				<h2><?php echo ucwords(str_replace("-"," ",$this->uri->segment(1))) ?></h2>
 			</div>

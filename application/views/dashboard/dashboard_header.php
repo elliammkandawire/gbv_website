@@ -65,6 +65,7 @@
                             <a href="<?php echo base_url() ?>team_admin"  class="list-group-item"><i class="fa fa-users"></i> Team</a>
 							<a href="<?php echo base_url() ?>services_admin" class="list-group-item"><i class="fa fa-balance-scale"></i> Services</a>
                             <a href="<?php echo base_url() ?>members_admin" class="list-group-item"><i class="fa fa-users"></i> Members</a>
+                            <a href="<?php echo base_url() ?>gallery" class="list-group-item"><i class="fa fa-camera"></i> Gallery</a>
 							<a href="<?php  echo base_url() ?>admin_resources" class="list-group-item"><i class="fa fa-book"></i> Resources</a>
 							<a href="<?php echo base_url(); ?>" target="_blank" class="list-group-item"><i class="fa fa-globe"></i> Website</a>
 							<a href="<?php echo base_url(); ?>logout"  class="list-group-item"><i class="fa fa-sign-out"></i> Logout</a>

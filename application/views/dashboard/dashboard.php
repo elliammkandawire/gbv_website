@@ -113,6 +113,10 @@
 					 <label for="message-text" class="col-form-label">Company Address:</label>
 					 <textarea class="form-control summernote"  name="postal_address" required="" style="white-space: pre-wrap;" rows="7"><?php echo $data->postal_address ?></textarea>
 				 </div>
+				 <div class="form-group">
+					 <label for="message-text" class="col-form-label">Company Objective:</label>
+					 <textarea class="form-control summernote" name="objective" style="white-space: pre-wrap;" rows="5"><?php echo $data->objective ?></textarea>
+				 </div>
 
 				 <div class="form-group">
 					 <label for="message-text" class="col-form-label">Specific Objectives</label>
@@ -124,12 +128,6 @@
                      <label for="message-text" class="col-form-label">Company Background</label>
                      <textarea class="form-control summernote" name="background" required="" style="white-space: pre-wrap;" rows="5"><?php echo $data->background ?></textarea>
                  </div>
-				 <div class="form-group">
-					 <label for="message-text" class="col-form-label">Company Objective:</label>
-					 <textarea class="form-control summernote" name="objective" style="white-space: pre-wrap;" rows="5"><?php echo $data->objective ?></textarea>
-				 </div>
-
-
 				 <div class="form-group">
 					 <label for="message-text" class="col-form-label">Company Logo:</label>
 					 <input type="file" class="form-control" id="logo" name="logo" accept=".jpg, .png, .jpeg, .gif" onchange="readURL(this,'company_logo')">

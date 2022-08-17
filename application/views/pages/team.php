@@ -3,8 +3,10 @@
 	<!--Team One Start-->
 	<section class="team-one">
 		<div class="container">
+			<div class="section-title text-center">
+				<span class="section-title__tagline">Our expert team</span>
+			</div>
 			<div class="row">
-
 				<?php foreach ($teams as $team): ?>
 				<!--Team One Single Start-->
 				<div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">

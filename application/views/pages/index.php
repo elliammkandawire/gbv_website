@@ -174,7 +174,7 @@
 				<div class="about-one__right">
 					<div class="section-title text-left">
 						<h3 class="section-title__title"><?php echo $company_data->fullname ?></h3>
-						<span class="section-title__tagline"><?php echo $company_data->motto ?></span>
+<!--						<span class="section-title__tagline">--><?php //echo $company_data->motto ?><!--</span>-->
 					</div>
 					<p class="about-one__text" style="padding-left: 10px">
 						<?php echo substr($company_data->background,0,500) ?>
@@ -232,7 +232,7 @@
 							<span class="icon-charity"></span>
 						</div>
 						<div class="help__content">
-							<h4 class="help__title"><a href="become-volunteer.html">Specifi Objective</a></h4>
+							<h4 class="help__title"><a href="become-volunteer.html">Specific Objective</a></h4>
 							<p class="help__text"><?php echo substr($company_data->core_values,0,200) ?>
 								<br><a href="<?php echo base_url() ?>aboutus">Read More...</a></p>
 						</div>

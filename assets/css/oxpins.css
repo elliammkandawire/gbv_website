@@ -18,9 +18,9 @@
 # Common
 --------------------------------------------------------------*/
 :root {
-  --oxpins-font: 'Manrope', sans-serif;
-  --oxpins-font-two: 'Nunito', sans-serif;
-  --oxpins-font-three: 'Caveat', cursive;
+  --oxpins-font: 'Montserrat', sans-serif;
+  --oxpins-font-two: 'Montserrat', sans-serif;
+  --oxpins-font-three: 'Montserrat', cursive;
   --oxpins-gray: #6f7775;
   --oxpins-gray-rgb: 111, 119, 117;
   --oxpins-white: #ffffff;

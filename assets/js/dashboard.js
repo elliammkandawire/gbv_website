@@ -306,9 +306,8 @@ function edit_user(id){
   hide("loader")
 }
 function edit_gallery(id){
-  show("loader")
-  setValue("id",id)
-	let url=getValue("url")+"home/get_gallery_details"
+  setValue("slug",id)
+	let url=getValue("url")+"gallery/get_gallery_details"
 	let request=url+"/"+id
 	
 	//alert(request)
@@ -318,13 +317,9 @@ function edit_gallery(id){
        //alert(data)
 
        setValue("name",data.name)
-       setValue("category",data.category)
-       setValue("details",data.details)
-       setValue("caption_by",data.caption_by)
-       setValue("picture_edit_current",data.picture)
+       setValue("caption",data.caption)
+       setValue("current_picture",data.picture)
        get("picture_edit").src=getValue("url")+"assets/images/gallery/"+data.picture
-
-      hide("loader")
     })
     $('.summernote').summernote();
 }
