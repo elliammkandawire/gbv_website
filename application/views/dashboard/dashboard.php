@@ -94,11 +94,20 @@
 
 				 <div class="form-group">
 					 <label for="message-text" class="col-form-label">Facebook</label>
-					 <input type="text" class="form-control" value="<?php echo $data->facebook ?>" name="facebook" placeholder="Example: https://www.facebook.com/" required="">
+					 <input type="text" class="form-control" value="<?php echo $data->facebook ?>" name="facebook" placeholder="Example: https://www.facebook.com/">
+				 </div>
+				 <div class="form-group">
+					 <label for="message-text" class="col-form-label">Instagram</label>
+					 <input type="text" class="form-control" value="<?php echo $data->instagram ?>" name="instagram" placeholder="Example: https://www.instagram.com/"">
+				 </div>
+
+				 <div class="form-group">
+					 <label for="message-text" class="col-form-label">Linkedin</label>
+					 <input type="text" class="form-control" value="<?php echo $data->linkedin ?>" name="linkedin" placeholder="Example: https://www.linkedin.com/">
 				 </div>
 				 <div class="form-group">
 					 <label for="message-text" class="col-form-label">Twitter</label>
-					 <input type="text" class="form-control" value="<?php echo $data->twitter ?>" name="twitter" placeholder="example: https://www.twitter.com/hei" required="">
+					 <input type="text" class="form-control" value="<?php echo $data->twitter ?>" name="twitter" placeholder="example: https://www.twitter.com/">
 				 </div>
 				 <div class="form-group">
 					 <label for="message-text" class="col-form-label">Company Address:</label>
@@ -106,7 +115,7 @@
 				 </div>
 
 				 <div class="form-group">
-					 <label for="message-text" class="col-form-label">Core Values</label>
+					 <label for="message-text" class="col-form-label">Specific Objectives</label>
                      <textarea class="form-control summernote" name="core_values" required="" style="white-space: pre-wrap;" rows="5"><?php echo $data->core_values ?></textarea>
 				 </div>
 			 </div>
@@ -132,6 +141,17 @@
 					 <br>
 					 <div>
 						 <img src="<?php echo base_url() ?>assets/images/resources/<?php echo $data->logo ?>" alt="" style="object-fit: cover; height: 200px; width: 100%;" id="company_logo">
+					 </div>
+				 </div>
+
+
+				 <div class="form-group">
+					 <label for="message-text" class="col-form-label">Website Header:</label>
+					 <input type="file" class="form-control" id="header" name="header" accept=".jpg, .png, .jpeg, .gif" onchange="readURL(this,'company_header')">
+					 <input type="hidden" value="<?php echo $data->header ?>" name="current_header">
+					 <br>
+					 <div>
+						 <img src="<?php echo base_url() ?>assets/images/backgrounds/<?php echo $data->header ?>" alt="" style="object-fit: cover; height: 200px; width: 100%;" id="company_header">
 					 </div>
 				 </div>
         	 </div>

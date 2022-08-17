@@ -1,5 +1,5 @@
 <!--Main Slider Start-->
-<section class="main-slider clearfix">
+<section class="main-slider-two clearfix">
 	<div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
                 "effect": "fade",
                 "pagination": {
@@ -14,32 +14,39 @@
                 "autoplay": {
                 "delay": 5000
                 }}'>
-		<div class="swiper-wrapper" style="height: 500px">
+		<div class="swiper-wrapper">
 
 			<?php foreach ($sliders as $slider): ?>
-				<div class="swiper-slide">
-					<div class="image-layer" style="background-image: url(<?php echo base_url() ?>assets/images/backgrounds/<?php  echo $slider->picture ?>);"></div>
-					<!-- /.image-layer -->
+			<div class="swiper-slide">
+				<div class="image-layer-two" style="background-image: url(<?php echo base_url() ?>assets/images/backgrounds/<?php echo $slider->picture ?>);"></div>
+				<!-- /.image-layer -->
 
-					<div class="main-slider-shape-1" style="background-image: url(<?php echo base_url() ?>assets/images/backgrounds/<?php echo $slider->picture ?>);"></div>
-					<div class="main-slider-shape-2 float-bob-x">
-						<img src="<?php echo base_url() ?>assets/images/backgrounds/<?php echo $slider->picture ?>" alt="">
-					</div>
+<!--				<div class="main-slider-two-shape-1">-->
+<!--					<img src="--><?php //echo base_url() ?><!--assets/images/backgrounds/--><?php //echo $slider->picture ?><!--" alt="">-->
+<!--				</div>-->
+<!--				<div class="main-slider-two-shape-2">-->
+<!--					<img src="--><?php //echo base_url() ?><!--assets/images/backgrounds/--><?php //echo $slider->picture ?><!--" alt="">-->
+<!--				</div>-->
 
-					<div class="container">
-						<div class="row">
-							<div class="col-xl-6 col-lg-8">
-								<div class="main-slider__content">
+				<div class="container" style="height: 600px">
+					<div class="row">
+						<div class="col-xl-12">
+							<div class="main-slider-two__content">
+								<p class="main-slider-two__sub-title"></p>
+								<h2 class="main-slider-two__title"></h2>
+								<div class="main-slider-two__btn-box">
+<!--									<a href="--><?php //echo base_url() ?><!--aboutus" class="thm-btn main-slider-two__btn">About Us</a>-->
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
 			<?php endforeach; ?>
 		</div>
 
 		<!-- If we need navigation buttons -->
-		<div class="main-slider__nav">
+		<div class="main-slider-two__nav">
 			<div class="swiper-button-prev" id="main-slider__swiper-button-next">
 				<i class="icon-left-arrow"></i>
 			</div>
@@ -160,7 +167,7 @@
 <!--Feature One End-->
 
 <!--About One Start-->
-<section class="about-one">
+<section class="about-one" style="margin-top: -100px;">
 	<div class="container">
 		<div class="row">
 			<div class="col-xl-12">
@@ -183,12 +190,12 @@
 								<span class="icon-solidarity"></span>
 							</div>
 							<div class="text">
-								<h5><a href="<?php echo base_url() ?>aboutus">Our Objective</a></h5>
-								<p><?php echo $company_data->objective; ?></p>
+								<h5><a href="<?php echo base_url() ?>aboutus">What we believe in</a></h5>
+								<p><?php echo $company_data->motto; ?></p>
 							</div>
 						</li>
 					</ul>
-					<a href="<?php echo base_url() ?>/aboutus" class="thm-btn about-one__btn">Discover More</a>
+					<a href="<?php echo base_url() ?>aboutus" class="thm-btn about-one__btn">Discover More</a>
 				</div>
 			</div>
 		</div>
@@ -196,6 +203,47 @@
 </section>
 <!--About One End-->
 
+<!--Help Start-->
+<section class="help">
+	<div class="help-bg jarallax" data-jarallax="" data-speed="0.2" data-imgposition="50% 0%"></div>
+	<div class="help-shape-1"></div>
+	<div class="container">
+		<div class="row">
+			<!--Help Single Start-->
+			<div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="200ms">
+				<div class="help__single">
+					<div class="help__single-inner">
+						<div class="help__icon">
+							<span class="icon-generous"></span>
+						</div>
+						<div class="help__content">
+							<h4 class="help__title"><a href="about.html">Objective</a></h4>
+							<p class="help__text"><?php echo $company_data->objective ?></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Help Single End-->
+			<!--Help Single Start-->
+			<div class="col-xl-5 col-lg-5 wow fadeInUp" data-wow-delay="100ms">
+				<div class="help__single">
+					<div class="help__single-inner">
+						<div class="help__icon">
+							<span class="icon-charity"></span>
+						</div>
+						<div class="help__content">
+							<h4 class="help__title"><a href="become-volunteer.html">Specifi Objective</a></h4>
+							<p class="help__text"><?php echo substr($company_data->core_values,0,200) ?>
+								<br><a href="<?php echo base_url() ?>aboutus">Read More...</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Help Single End-->
+		</div>
+	</div>
+</section>
+<!--Help End-->
 
 
 <!--Events Page Start-->

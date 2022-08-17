@@ -10,7 +10,7 @@
 				<div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
 					<div class="team-one__single">
 						<div class="team-one__img">
-							<img src="<?php echo base_url() ?>assets/images/team/<?php  echo $team->picture ?>" alt="">
+							<img style="object-fit: cover; height: 350px;" src="<?php echo base_url() ?>assets/images/team/<?php  echo $team->picture ?>" alt="">
 							<div class="team-one__social">
 								<a target="_blank" href="<?php echo $team->facebook_url ?>"><i class="fab fa-facebook"></i></a>
 								<a target="_blank" href="<?php echo $team->twitter_url ?>"><i class="fab fa-twitter"></i></a>

@@ -26,6 +26,8 @@ class Home extends BaseController {
 			"fullname"=>$this->input->post("fullname"),
 			"location"=>$this->input->post("location"),
 			"background"=>nl2br($this->input->post("background")),
+			"instagram"=>nl2br($this->input->post("instagram")),
+			"linkedin"=>nl2br($this->input->post("linkedin")),
 			"email"=>$this->input->post("email"),
 			"phone"=>$this->input->post("phone"),
 			"facebook"=>$this->input->post("facebook"),
@@ -39,12 +41,19 @@ class Home extends BaseController {
 			"header"=>$this->input->post("header"),
 			"footer_logo"=>$this->input->post("footer_logo"),
 			"logo"=>$this->input->post("current_logo"),
+			"header"=>$this->input->post("current_header"),
 			"core_values"=>nl2br($this->input->post("core_values"))
 		);
 		/*check if logo is empty*/
 		if ($_FILES['logo']['error']!=4) {
 			$file_name=$this->do_upload("./assets/images/resources","logo")['upload_data']['file_name'];
 			$data['logo']=$file_name;
+		}
+
+		/*check if logo is empty*/
+		if ($_FILES['header']['error']!=4) {
+			$file_name=$this->do_upload("./assets/images/backgrounds","header")['upload_data']['file_name'];
+			$data['header']=$file_name;
 		}
 
 		$this->update($this->table,$data);

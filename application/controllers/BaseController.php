@@ -14,7 +14,7 @@ class BaseController extends CI_Controller {
 		$data["latest_news"]=$this->data_model->selectFewElements("news","date", "desc", "5");
 		$data["services"]=$this->data_model->readData("services");
 		$data[$additional_data["title"]]=$additional_data["data"];
-		$this->load->view('pages/website_header',$data);
+		$this->load->view('pages/header_for_bigger_slider',$data);
 		$this->load->view($page);
 		$this->load->view('pages/website_footer');
 	}
