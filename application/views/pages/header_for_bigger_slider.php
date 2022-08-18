@@ -48,6 +48,14 @@
 	<!-- template styles -->
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/oxpins.css">
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/oxpins-responsive.css">
+<!--	<style>-->
+<!--		@media screen and (min-width: 768px) {-->
+<!--			body {-->
+<!--				margin-left: 18%;-->
+<!--				margin-right: 18%;-->
+<!--			}-->
+<!--		}-->
+<!--	</style>-->
 </head>
 
 <body class="custom-cursor">
@@ -68,7 +76,7 @@
 				<div class="main-menu-two__wrapper-inner">
 					<div class="main-menu-two__left">
 						<div class="main-menu-two__logo">
-							<a href="<?php echo  base_url() ?>"><img style="object-fit: cover; height: 150px;" src="<?php echo base_url() ?>assets/images/resources/<?php echo $company_data->logo  ?>" alt=""></a>
+							<a href="<?php echo  base_url() ?>"><img style="object-fit: cover; height: 100px;" src="<?php echo base_url() ?>assets/images/resources/<?php echo $company_data->logo  ?>" alt=""></a>
 						</div>
 					</div>
 					<div class="main-menu-two__right">

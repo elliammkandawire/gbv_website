@@ -58,7 +58,7 @@
 							<span class="icon-phone-call"></span>
 						</div>
 						<div class="contact-one__content">
-							<p class="contact-one__sub-title">Helpline</p>
+							<p class="contact-one__sub-title">Office Line</p>
 							<h3 class="contact-one__number"><a href="tel:<?php echo $company_data->phone ?>"><?php echo $company_data->phone ?></a></h3>
 						</div>
 					</li>
@@ -85,3 +85,9 @@
 		</div>
 	</section>
 	<!--Contact One End-->
+
+	<!--Google Map Start-->
+	<section class="google-map google-map-two" style="margin-top: -50px">
+		<iframe src="<?php echo $company_data->map_src ?>" width="100%" height="450" style="border:0;" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</section>
+	<!--Google Map End-->

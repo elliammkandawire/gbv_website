@@ -250,18 +250,6 @@
 <section class="events-page">
 	<div class="container">
 		<div class="row">
-			<div class="col-xl-4 col-lg-6 col-md-6">
-				<!--Events One Single Start-->
-				<div class="events-one__single">
-					<div class="footer_box__block">
-						<!--						<h4>Twitter Feeds</h4>-->
-						<div class="container" style="height: 300px; width: 100%; overflow: scroll;">
-							<a class="twitter-timeline" href="<?php echo $company_data->twitter ?>">Tweets by <?php echo $company_data->shortname ?></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-						</div>
-					</div>
-				</div>
-				<!--Events One Single End-->
-			</div>
 			<?php foreach ($services as $service): ?>
 				<div class="col-xl-4 col-lg-6 col-md-6">
 					<!--Events One Single Start-->
@@ -276,6 +264,18 @@
 					<!--Events One Single End-->
 				</div>
 			<?php endforeach; ?>
+			<div class="col-xl-4 col-lg-6 col-md-6">
+				<!--Events One Single Start-->
+				<div class="events-one__single">
+					<div class="footer_box__block">
+						<!--						<h4>Twitter Feeds</h4>-->
+						<div class="container" style="height: 300px; width: 100%; overflow: scroll;">
+							<a class="twitter-timeline" href="<?php echo $company_data->twitter ?>">Tweets by <?php echo $company_data->shortname ?></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</div>
+					</div>
+				</div>
+				<!--Events One Single End-->
+			</div>
 		</div>
 	</div>
 </section>

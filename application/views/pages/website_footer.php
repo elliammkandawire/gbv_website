@@ -123,8 +123,10 @@
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
-                    <a href="<?php echo $company_data->twitter ?>" class="fab fa-twitter"></a>
-                    <a href="<?php echo $company_data->facebook ?>" class="fab fa-facebook-square"></a>
+					<a target="_blank" href="<?php echo $company_data->twitter ?>"><i class="fab fa-twitter"></i></a>
+					<a target="_blank" href="<?php echo $company_data->facebook ?>"><i class="fab fa-facebook"></i></a>
+					<a target="_blank" href="<?php echo $company_data->linkedin  ?>"><i class="fab fa-linkedin-in"></i></a>
+					<a target="_blank" href="<?php echo $company_data->instagram ?>"><i class="fab fa-instagram"></i></a>
                 </div><!-- /.mobile-nav__social -->
             </div><!-- /.mobile-nav__top -->
 

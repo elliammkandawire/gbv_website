@@ -41,26 +41,6 @@
 									</div><!-- /.inner -->
 								</div>
 							</div>
-							<div class="accrodion">
-								<div class="accrodion-title">
-									<h4>Motto</h4>
-								</div>
-								<div class="accrodion-content">
-									<div class="inner">
-										<p><?php echo $company_data->motto ?></p>
-									</div><!-- /.inner -->
-								</div>
-							</div>
-							<div class="accrodion last-chiled">
-								<div class="accrodion-title">
-									<h4>Mission</h4>
-								</div>
-								<div class="accrodion-content">
-									<div class="inner">
-										<p><?php echo $company_data->mission ?></p>
-									</div><!-- /.inner -->
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
