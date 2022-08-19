@@ -388,13 +388,11 @@ function auto_adjust(start,end){
   setValue(end,getValue(start))
 }
 function edit_company(id){
-     show("loader")
      try{
       $('.summernote').summernote();
      }catch{
-      hide("loader")
      }
-     hide("loader")
+     location.href='home/update_company_details'
 }
 
 function edit_company_policy(id){

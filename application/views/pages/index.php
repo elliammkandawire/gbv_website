@@ -177,7 +177,7 @@
 <!--						<span class="section-title__tagline">--><?php //echo $company_data->motto ?><!--</span>-->
 					</div>
 					<p class="about-one__text" style="padding-left: 10px">
-						<?php echo substr($company_data->background,0,500) ?>
+						<?php echo $company_data->brief_background ?>
 						<br><a href="<?php echo base_url() ?>/aboutus">Read More...</a>
 					</p>
 					<!--					<div class="about-one__fund">-->

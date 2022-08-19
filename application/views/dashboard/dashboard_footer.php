@@ -30,6 +30,9 @@
  <!-- Summernote js -->
  <link href="<?php echo base_url() ?>assets/libs/summernote-0.8.18-dist/summernote.min.css" rel="stylesheet">
  <script src="<?php echo base_url() ?>assets/libs/summernote-0.8.18-dist/summernote.min.js"></script>
+   <script>
+	   $('.summernote').summernote();
+   </script>
 <!-- <script src="--><?php //echo base_url() ?><!--js/sweetalert.js"></script>-->
  
 

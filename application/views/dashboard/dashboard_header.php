@@ -51,7 +51,7 @@
                 <a class="breadcrumb-item" href="<?php echo base_url() ?>dashboard">Home</a>
             </nav>
             <div class="row">
-	     		<div class="col-lg-3"><!--start col-lg-3-->
+	     		<div class="col-lg-2"><!--start col-lg-3-->
 					<div class="w3-card-16">
 						<header class="w3-container" style="background-color: #822676">
 							<h5 style="color: whitesmoke">Quick Links</h5>

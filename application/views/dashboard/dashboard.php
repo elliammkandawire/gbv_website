@@ -23,8 +23,7 @@
 							  </a>
 							  <div class="desc"><?php echo $data->shortname;  ?></div>
 							  <div class="container">
-							  	 <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#edit_company" onclick="add_summary_note()" data-whatever="@mdo" onclick="edit_company('<?php echo $data->shortname; ?>')"><i class="fa fa-edit"></i> Update</button>
-							  	
+                                   <a href="home/update_company_details">Edit Details</a>
 							  	<br>
 							  </div>
 							 </div>
@@ -122,6 +121,10 @@
 					 <label for="message-text" class="col-form-label">Specific Objectives</label>
                      <textarea class="form-control summernote" name="core_values" required="" style="white-space: pre-wrap;" rows="5"><?php echo $data->core_values ?></textarea>
 				 </div>
+				 <div class="form-group">
+					 <label for="message-text" class="col-form-label">Company Brief History</label>
+					 <textarea class="form-control summernote" name="brief_background" required="" style="white-space: pre-wrap;" rows="5"><?php echo $data->brief_background ?></textarea>
+				 </div>
 			 </div>
         	 <div class="col-lg-6">
                  <div class="form-group">
@@ -162,6 +165,8 @@
 		<?php echo form_close(); ?>
     </div>
   </div>
+
+
 </div>
 
 <div class="modal fade" id="edit_company_policy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

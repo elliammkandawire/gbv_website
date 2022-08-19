@@ -13,6 +13,11 @@ class Home extends BaseController {
 		$this->addWebsiteHeader("pages/about",null);
     }
 
+	public function update_company_details(){
+		$this->checkIfLoggedIn();
+		$this->addDashboardHeaderAndFooterAndMenu('dashboard/update_company_details', null);
+	}
+
 	public function dashboard(){
 		$this->checkIfLoggedIn();
 		$this->addDashboardHeaderAndFooterAndMenu('dashboard/dashboard', null);
@@ -26,6 +31,7 @@ class Home extends BaseController {
 			"fullname"=>$this->input->post("fullname"),
 			"location"=>$this->input->post("location"),
 			"background"=>nl2br($this->input->post("background")),
+			"brief_background"=>nl2br($this->input->post("brief_background")),
 			"instagram"=>nl2br($this->input->post("instagram")),
 			"linkedin"=>nl2br($this->input->post("linkedin")),
 			"email"=>$this->input->post("email"),
