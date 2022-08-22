@@ -26,7 +26,7 @@ class Slider extends BaseController {
 	public function add(){
 		$this->checkIfLoggedIn();
 		$data=array(
-			"slug"=>$this->removeHtmlTags($this->url($this->input->post("title")).date()),
+			"slug"=>$this->removeHtmlTags($this->url($this->input->post("title")).date("yyyyMMddHs")),
 			"title"=>$this->removeHtmlTags($this->input->post("title")),
 			"description"=>nl2br($this->input->post("description")),
 			"picture"=>$this->removeHtmlTags($this->input->post("current_picture"))

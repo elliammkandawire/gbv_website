@@ -12,6 +12,7 @@
 			<?php $_SESSION['message']=null; } ?>
 		<header class="w3-container" style="background-color: #822676">
 			<h5 style="color: whitesmoke">GALLERY</h5>
+			<button class="btn btn-success" data-toggle="modal" data-target="#add" onclick="add_summary_note()" data-whatever="@mdo"><i class="fa fa-plus"></i> Add</button>
 		</header>
 	</div>
 	<div id="container" style="width: 100%;">
@@ -45,27 +46,27 @@
 	<div class="modal-dialog" role="document" style="width: 50%">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Add News</h5>
+				<h5 class="modal-title" id="exampleModalLabel">Add</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
 			<div class="modal-body">
-				<form method="POST" action="add_slider" enctype="multipart/form-data">
+				<form method="POST" action="<?php echo base_url() ?>gallery/add_gallery" enctype="multipart/form-data">
 					<div class="row">
 						<div class="col-lg-6">
 							<div class="form-group">
 								<label for="message-text" class="col-form-label">Title</label>
-								<input  type="text" class="form-control" name="title">
+								<input  type="text" class="form-control" name="name">
 							</div>
 							<div class="form-group">
-								<label for="message-text" class="col-form-label">Details</label>
-								<textarea class="form-control summernote" rows="16" name="description"></textarea>
+								<label for="message-text" class="col-form-label">Caption</label>
+								<input class="form-control"  name="caption">
 							</div>
 						</div>
 						<div class="col-lg-6">
 							<div class="form-group">
-								<label for="message-text" class="col-form-label">News Artwork:</label>
+								<label for="message-text" class="col-form-label">Picture:</label>
 								<input type="file" class="form-control" name="picture" accept=".jpg, .png, .jpeg, .gif" required="" onchange="readURL(this,'picture')">
 							</div>
 							<div>
@@ -92,7 +93,7 @@
 	<div class="modal-dialog" role="document" style="width: 50%;">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Edit News</h5>
+				<h5 class="modal-title" id="exampleModalLabel">Edit</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"">
 				<span aria-hidden="true">&times;</span>
 				</button>

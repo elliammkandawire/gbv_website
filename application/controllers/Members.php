@@ -67,7 +67,7 @@ class Members extends BaseController {
 			redirect("login");
 		}
 		$data=$this->addDefaultData();
-		$data['slug']=$this->removeHtmlTags($this->url($this->input->post("name")).date());
+		$data['slug']=$this->removeHtmlTags($this->url($this->input->post("name")).date("yyyyMMddHs"));
 
 		//echo json_encode($data);exit;
 		$this->insert($this->table,$data);

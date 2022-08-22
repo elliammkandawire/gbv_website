@@ -217,7 +217,7 @@
 							<span class="icon-generous"></span>
 						</div>
 						<div class="help__content">
-							<h4 class="help__title"><a href="about.html">Objective</a></h4>
+							<h4 class="help__title"><a href="<?php echo base_url() ?>aboutus">Objective</a></h4>
 							<p class="help__text"><?php echo $company_data->objective ?></p>
 						</div>
 					</div>
@@ -232,8 +232,8 @@
 							<span class="icon-charity"></span>
 						</div>
 						<div class="help__content">
-							<h4 class="help__title"><a href="become-volunteer.html">Specific Objective</a></h4>
-							<p class="help__text"><?php echo substr($company_data->core_values,0,200) ?>
+							<h4 class="help__title"><a href="<?php echo base_url() ?>aboutus">Specific Objective</a></h4>
+							<p class="help__text" style="color: whitesmoke"><?php echo substr($company_data->core_values,0,200) ?>
 								<br><a href="<?php echo base_url() ?>aboutus">Read More...</a></p>
 						</div>
 					</div>

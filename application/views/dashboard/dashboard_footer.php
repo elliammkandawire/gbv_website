@@ -27,9 +27,12 @@
 <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/gslib_client.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/dashboard.js"></script>
+<!--   <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">-->
+<!--   <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.1/summernote.css" rel="stylesheet">-->
  <!-- Summernote js -->
- <link href="<?php echo base_url() ?>assets/libs/summernote-0.8.18-dist/summernote.min.css" rel="stylesheet">
- <script src="<?php echo base_url() ?>assets/libs/summernote-0.8.18-dist/summernote.min.js"></script>
+   <!-- include summernote css/js -->
+   <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
    <script>
 	   $('.summernote').summernote();
    </script>

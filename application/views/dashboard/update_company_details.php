@@ -1,6 +1,6 @@
 <?php $data=$company_data; echo form_open_multipart('update_company');?>
 	<div class="row">
-		<div class="col-lg-4">
+		<div class="col-lg-9">
 			<input type="text" name="slug" value="<?php echo $data->slug ?>" style="display: none">
 			<div class="form-group">
 				<label for="recipient-name" class="col-form-label">Company Short Name:</label>
@@ -67,16 +67,7 @@
 				<label for="message-text" class="col-form-label">Specific Objectives</label>
 				<textarea class="form-control summernote" name="core_values" required="" style="white-space: pre-wrap;" rows="5"><?php echo $data->core_values ?></textarea>
 			</div>
-		</div>
-		<div class="col-lg-5">
-			<div class="form-group">
-				<label for="message-text" class="col-form-label">Company Brief History</label>
-				<textarea class="form-control summernote" name="brief_background" required="" style="white-space: pre-wrap;" rows="5"><?php echo $data->brief_background ?></textarea>
-			</div>
-			<div class="form-group">
-				<label for="message-text" class="col-form-label">Company Background</label>
-				<textarea class="form-control summernote" name="background" required="" style="white-space: pre-wrap;" rows="5"><?php echo $data->background ?></textarea>
-			</div>
+
 			<div class="form-group">
 				<label for="message-text" class="col-form-label">Company Logo:</label>
 				<input type="file" class="form-control" id="logo" name="logo" accept=".jpg, .png, .jpeg, .gif" onchange="readURL(this,'company_logo')">
@@ -100,6 +91,18 @@
 				<div>
 					<img src="<?php echo base_url() ?>assets/images/backgrounds/<?php echo $data->header ?>" alt="" style="object-fit: cover; height: 200px; width: 100%;" id="company_header">
 				</div>
+			</div>
+		</div>
+		<div class="col-lg-2">
+		</div>
+		<div class="col-lg-9">
+			<div class="form-group">
+				<label for="message-text" class="col-form-label">Company Brief History</label>
+				<textarea class="form-control summernote" name="brief_background" required="" style="white-space: pre-wrap;" rows="5"><?php echo $data->brief_background ?></textarea>
+			</div>
+			<div class="form-group">
+				<label for="message-text" class="col-form-label">Company Background</label>
+				<textarea class="form-control summernote" name="background" required="" style="white-space: pre-wrap;" rows="5"><?php echo $data->background ?></textarea>
 			</div>
 		</div>
 	</div>

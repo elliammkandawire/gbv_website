@@ -50,32 +50,3 @@
 	<!--FAQ One End-->
 
 
-	<!--Gallery Page Start-->
-	<section class="gallery-page">
-		<div class="container">
-			<div class="section-title text-center">
-				<span class="section-title__tagline">Gallery</span>
-				<h5>Our Recent Activities</h5>
-			</div>
-			<div class="row">
-				<?php foreach ($gallery as $picture): ?>
-				<!--Gallery Page Single Start-->
-				<div class="col-xl-4 col-lg-6 col-md-6">
-					<div class="gallery-page__single">
-						<div class="gallery-page__img">
-							<img style="object-fit: cover; height: 250px;" src="<?php echo  base_url()?>assets/images/gallery/<?php echo $picture->picture ?>" alt="">
-							<a href="<?php echo  base_url()?>assets/images/gallery/<?php echo $picture->picture ?>" class="img-popup"></a>
-							<!-- /.img-popup -->
-							<div class="gallery-page__content">
-								<p class="gallery-page__sub-title"><?php  echo $picture->caption ?></p>
-								<h5 class="gallery-page__title"><a href="#"><?php echo $picture->name ?></a></h5>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--Gallery Page Single End-->
-				<?php endforeach; ?>
-			</div>
-		</div>
-	</section>
-	<!--Gallery Page End-->

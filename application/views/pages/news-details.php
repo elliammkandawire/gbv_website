@@ -6,7 +6,7 @@
 				<div class="col-xl-8 col-lg-7">
 					<div class="news-details__left">
 						<div class="news-details__img">
-							<img class="standard-image" src="<?php echo base_url()?>assets/images/blog/<?php echo $news_details->picture?>" alt="">
+							<img  src="<?php echo base_url()?>assets/images/blog/<?php echo $news_details->picture?>" alt="">
 							<div class="news-details__date">
 								<p><?php
 									$date=date_create($news_details->date);

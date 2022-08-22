@@ -3,7 +3,7 @@
 		<section class="donation">
 			<div class="container">
 				<div class="section-title text-center">
-					<span class="section-title__tagline">Our Membership</span>
+					<h4>Our Membership</h4>
 					<h5>Our memebership is diverse, representing humanitarian,<br> development, human rights, advocacy, and gender focused organizations.</h5>
 				</div>
 				<div class="row">

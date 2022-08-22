@@ -3537,7 +3537,7 @@ body.locked .page-wrapper {
   font-size: 24px;
   color: var(--oxpins-primary);
   font-weight: 700;
-  font-family: var(--oxpins-font-three);
+  /*font-family: var(--oxpins-font-three);*/
 }
 
 .become-volunteer-one__title {
@@ -6507,7 +6507,6 @@ body.locked .page-wrapper {
   font-size: 16px;
   color: var(--oxpins-primary);
   font-weight: 700;
-  font-family: var(--oxpins-font-three);
   line-height: 16px;
 }
 

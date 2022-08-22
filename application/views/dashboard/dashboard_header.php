@@ -9,10 +9,11 @@
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/w3css/w3-4.css">
 	<link href="<?php echo base_url(); ?>assets/css/assets/bootstrap.min.css" rel="stylesheet">
 	<link href="<?php echo base_url(); ?>assets/css/admin.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <link href="<?php echo base_url(); ?>assets\libs\summernote\summernote-bs4.css" rel="stylesheet" type="text/css">
-     <script src="<?php echo base_url() ?>assets\libs\summernote\summernote-bs4.min.js"></script>
-	<link rel="icon" type="image/png" href="<?php echo  base_url()?>images/logo.png"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--	<link href="--><?php //echo base_url(); ?><!--assets\libs\summernote\summernote-bs4.css" rel="stylesheet" type="text/css">-->
+<!--	<script src="--><?php //echo base_url() ?><!--assets\libs\summernote\summernote-bs4.min.js"></script>-->
+<!--	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">-->
+<!--	<link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.1/summernote.css" rel="stylesheet">-->
 
      <style type="text/css">
       .body           

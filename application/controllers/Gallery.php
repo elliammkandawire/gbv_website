@@ -17,13 +17,12 @@ class Gallery extends BaseController {
 		return json_encode($this->get_details($this->table,"slug", $slug)[0]);
 	}
 
-	public function add(){
+	public function add_gallery(){
 		$this->checkIfLoggedIn();
 		$data=array(
-			"slug"=>$this->removeHtmlTags($this->url($this->input->post("name")).date()),
+			"slug"=>$this->removeHtmlTags($this->url($this->input->post("name")).date("yyyyMMddHs")),
 			"name"=>$this->removeHtmlTags($this->input->post("name")),
-			"caption"=>nl2br($this->input->post("caption")),
-			"picture"=>$this->removeHtmlTags($this->input->post("current_picture"))
+			"caption"=>nl2br($this->input->post("caption"))
 		);
 
 		/*check if picture is empty*/

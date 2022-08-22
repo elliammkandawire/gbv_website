@@ -54,7 +54,7 @@
 
 		  <?php echo form_open_multipart('update_company');?>
         <div class="row">
-        	 <div class="col-lg-6">
+        	 <div class="col-lg-12">
 				 <input type="text" name="slug" value="<?php echo $data->slug ?>" style="display: none">
 		          <div class="form-group">
 		            <label for="recipient-name" class="col-form-label">Company Short Name:</label>
@@ -126,7 +126,7 @@
 					 <textarea class="form-control summernote" name="brief_background" required="" style="white-space: pre-wrap;" rows="5"><?php echo $data->brief_background ?></textarea>
 				 </div>
 			 </div>
-        	 <div class="col-lg-6">
+        	 <div class="col-lg-12">
                  <div class="form-group">
                      <label for="message-text" class="col-form-label">Company Background</label>
                      <textarea class="form-control summernote" name="background" required="" style="white-space: pre-wrap;" rows="5"><?php echo $data->background ?></textarea>
