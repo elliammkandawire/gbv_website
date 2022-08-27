@@ -33,9 +33,9 @@
    <!-- include summernote css/js -->
    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
-   <script>
-	   $('.summernote').summernote();
-   </script>
+<!--   <script>-->
+<!--	   $('.summernote').summernote();-->
+<!--   </script>-->
 <!-- <script src="--><?php //echo base_url() ?><!--js/sweetalert.js"></script>-->
  
 

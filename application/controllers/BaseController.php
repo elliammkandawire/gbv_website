@@ -18,6 +18,9 @@ class BaseController extends CI_Controller {
 		$this->load->view('pages/header_for_bigger_slider',$data);
 		$this->load->view($page);
 		$this->load->view('pages/website_footer');
+		if($page=="dashboard/update_company_details"){
+			$this->load->view('dashboard/special_footer');
+		}
 	}
 
 	public function checkIfLoggedIn(){
@@ -60,6 +63,9 @@ class BaseController extends CI_Controller {
 		$this->load->view('dashboard/dashboard_header',$data);
 		$this->load->view($page);
 		$this->load->view('dashboard/dashboard_footer');
+		if($page=="dashboard/update_company_details"){
+			$this->load->view('dashboard/special_footer');
+		}
 	}
 
 	public function do_upload($location,$file)
