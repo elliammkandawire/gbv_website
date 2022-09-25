@@ -64,7 +64,7 @@
 							<a href="<?php echo base_url() ?>events_admin" class="list-group-item"><i class="fa fa-clock-o"></i> Events</a>
 							<a href="<?php echo base_url() ?>news/news_admin" class="list-group-item"><i class="fa fa-book"></i> News</a>
                             <a href="<?php echo base_url() ?>team_admin"  class="list-group-item"><i class="fa fa-users"></i> Team</a>
-							<a href="<?php echo base_url() ?>services_admin" class="list-group-item"><i class="fa fa-balance-scale"></i> Services</a>
+							<a href="<?php echo base_url() ?>services_admin" class="list-group-item"><i class="fa fa-balance-scale"></i> Programs</a>
                             <a href="<?php echo base_url() ?>members_admin" class="list-group-item"><i class="fa fa-users"></i> Members</a>
                             <a href="<?php echo base_url() ?>gallery" class="list-group-item"><i class="fa fa-camera"></i> Gallery</a>
 							<a href="<?php  echo base_url() ?>admin_resources" class="list-group-item"><i class="fa fa-book"></i> Resources</a>

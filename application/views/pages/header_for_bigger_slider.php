@@ -73,10 +73,10 @@
 	<header class="main-header-two">
 		<nav class="main-menu main-menu-two">
 			<div class="main-menu-two__wrapper">
-				<div class="main-menu-two__wrapper-inner">
+				<div class="main-menu-two__wrapper-inner" style="background-color: whitesmoke">
 					<div class="main-menu-two__left">
 						<div class="main-menu-two__logo">
-							<a href="<?php echo  base_url() ?>"><img style="object-fit: cover; height: 100px;" src="<?php echo base_url() ?>assets/images/resources/<?php echo $company_data->logo  ?>" alt=""></a>
+							<a href="<?php echo  base_url() ?>"><img style="object-fit: cover; height: 100px; background-color: whitesmoke" src="<?php echo base_url() ?>assets/images/resources/<?php echo $company_data->logo  ?>" alt=""></a>
 						</div>
 					</div>
 					<div class="main-menu-two__right">
@@ -115,6 +115,7 @@
 								</div>
 							</div>
 						</div>
+
 						<div class="main-menu-two__right-bottom">
 							<div class="main-menu-two__main-menu-box">
 								<a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
@@ -131,7 +132,7 @@
 										</ul>
 									</li>
 									<li class="dropdown">
-										<a href="<?php echo base_url() ?>services">What we do</a>
+										<a href="<?php echo base_url() ?>programs">What we do</a>
 										<ul>
 											<?php foreach ($services as $service): ?>
 												<li><a href="<?php echo base_url()?>service-details/<?php echo $service->slug ?>"><?php echo $service->name ?></a></li>
@@ -141,12 +142,12 @@
 									<li>
 										<a href="<?php echo base_url() ?>events">Events</a>
 									</li>
-									<li class="dropdown">
-										<a href="<?php echo base_url() ?>news">News</a>
-										<ul>
-											<li><a href="<?php echo base_url() ?>news">Articles</a></li>
-											<li><a href="<?php echo base_url() ?>publications">Resources</a></li>
-										</ul>
+									<li>
+										<a href="<?php echo base_url() ?>resources">Resources</a>
+<!--										<ul>-->
+<!--											<li><a href="--><?php //echo base_url() ?><!--news">Articles</a></li>-->
+<!--											<li><a href="--><?php //echo base_url() ?><!--publications">Resources</a></li>-->
+<!--										</ul>-->
 									</li>
 									<li>
 										<a href="<?php echo base_url() ?>contact">Contact</a>

@@ -43,6 +43,7 @@ class Home extends BaseController {
 			"motto"=>nl2br($this->input->post("motto")),
 			"objective"=>nl2br($this->input->post("objective")),
 			"mobile_logo"=>$this->input->post("mobile_logo"),
+			"map_src"=>$this->input->post("map_src"),
 			"about_picture"=>$this->input->post("about_picture"),
 			"header"=>$this->input->post("header"),
 			"footer_logo"=>$this->input->post("footer_logo"),

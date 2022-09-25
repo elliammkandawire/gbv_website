@@ -77,7 +77,7 @@
 				<div class="main-menu__wrapper-inner">
 					<div class="main-menu__left">
 						<div class="main-menu__logo">
-							<a href="<?php echo  base_url() ?>"><img style="object-fit: cover; height: 200px;" src="<?php echo base_url() ?>assets/images/resources/<?php echo $company_data->logo  ?>" alt=""></a>
+							<a href="<?php echo  base_url() ?>"><img style="object-fit: cover; height: 200px; background-color: whitesmoke" src="<?php echo base_url() ?>assets/images/resources/<?php //echo $company_data->logo  ?>" alt=""></a>
 						</div>
 					</div>
 					<div class="main-menu__right">
@@ -141,7 +141,7 @@
 										</ul>
 									</li>
 									<li class="dropdown">
-										<a href="<?php echo base_url() ?>services">What we do</a>
+										<a href="<?php echo base_url() ?>programs">What we do</a>
 										<ul>
 											<?php foreach ($services as $service): ?>
 												<li><a href="<?php echo base_url()?>service-details/<?php echo $service->slug ?>"><?php echo $service->name ?></a></li>

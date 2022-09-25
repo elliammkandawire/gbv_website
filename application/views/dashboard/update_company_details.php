@@ -58,6 +58,11 @@
 				<label for="message-text" class="col-form-label">Company Address:</label>
 				<textarea class="form-control summernote"  name="postal_address" required="" style="white-space: pre-wrap;" rows="7"><?php echo $data->postal_address ?></textarea>
 			</div>
+
+			<div class="form-group">
+				<label for="message-text" class="col-form-label">Map</label>
+				<textarea class="form-control" name="map_src" required="" style="white-space: pre-wrap;" rows="5"><?php echo $data->map_src ?></textarea>
+			</div>
 			<div class="form-group">
 				<label for="message-text" class="col-form-label">Company Objective:</label>
 				<textarea class="form-control summernote" name="objective" style="white-space: pre-wrap;" rows="5"><?php echo $data->objective ?></textarea>

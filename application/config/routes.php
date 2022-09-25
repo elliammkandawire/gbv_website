@@ -62,6 +62,8 @@ $route['login'] = 'user';
 $route['auth'] = 'user/login';
 $route['dashboard'] = 'home/dashboard';
 $route['logout'] = 'user/logout';
+$route['programs'] = 'Services';
+$route['resources'] = 'news';
 
 $route['update_company'] = 'home/update_company';
 $route['update_slider'] = 'slider/update_slider';
