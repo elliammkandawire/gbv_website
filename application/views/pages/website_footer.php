@@ -17,9 +17,6 @@
 										<?php echo $company_data->motto ?>
 									</p>
                                 </div>
-                                <div class="footer-widget__btn">
-                                    <a target="_blank" href="<?php echo $company_data->facebook ?>"> <span class="fab fa-facebook"></span>Follow Us</a>
-                                </div>
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
@@ -74,6 +71,9 @@
 									<a target="_blank" href="<?php echo $company_data->linkedin  ?>"><i class="fab fa-linkedin-in"></i></a>
 									<a target="_blank" href="<?php echo $company_data->instagram ?>"><i class="fab fa-instagram"></i></a>
                                 </div>
+								<div class="footer-widget__btn" style="margin-top: 20px">
+									<a target="_blank" href="<?php echo $company_data->facebook ?>"> <span class="fab fa-facebook"></span>Follow Us Now</a>
+								</div>
                             </div>
                         </div>
                     </div>
