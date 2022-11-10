@@ -276,6 +276,22 @@
 				</div>
 				<!--Events One Single End-->
 			</div>
+
+
+			<div class="col-xl-4 col-lg-6 col-md-6">
+				<!--Events One Single Start-->
+				<div class="events-one__single">
+					<div class="footer_box__block">
+						<!--						<h4>Twitter Feeds</h4>-->
+						<div class="container" style="height: 300px; width: 100%; overflow: scroll;">
+							<iframe src="https://www.facebook.com/plugins/page.php?href=<?php echo $company_data->facebook ?>&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500"
+									style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+						</div>
+					</div>
+				</div>
+				<!--Events One Single End-->
+			</div>
+
 		</div>
 	</div>
 </section>

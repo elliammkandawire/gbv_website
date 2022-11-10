@@ -1,6 +1,6 @@
 <?php $data=$company_data; echo form_open_multipart('update_company');?>
 	<div class="row">
-		<div class="col-lg-9">
+		<div class="col-lg-4">
 			<input type="text" name="slug" value="<?php echo $data->slug ?>" style="display: none">
 			<div class="form-group">
 				<label for="recipient-name" class="col-form-label">Company Short Name:</label>
@@ -87,9 +87,39 @@
 				</div>
 			</div>
 
+			<div class="form-group">
+				<label for="message-text" class="col-form-label">Website Program Header:</label>
+				<input type="file" class="form-control" id="programs_header" name="programs_header" accept=".jpg, .png, .jpeg, .gif" onchange="readURL(this,'preview_programs_header')">
+				<input type="hidden" value="<?php echo $data->programs_header ?>" name="current_programs_header">
+				<br>
+				<div>
+					<img src="<?php echo base_url() ?>assets/images/backgrounds/<?php echo $data->programs_header ?>" alt="" style="object-fit: cover; height: 200px; width: 100%;" id="preview_programs_header">
+				</div>
+			</div>
 
 			<div class="form-group">
-				<label for="message-text" class="col-form-label">Website Header:</label>
+				<label for="message-text" class="col-form-label">Website Events Header:</label>
+				<input type="file" class="form-control" id="events_header" name="events_header" accept=".jpg, .png, .jpeg, .gif" onchange="readURL(this,'preview_events_header')">
+				<input type="hidden" value="<?php echo $data->events_header ?>" name="current_events_header">
+				<br>
+				<div>
+					<img src="<?php echo base_url() ?>assets/images/backgrounds/<?php echo $data->events_header ?>" alt="" style="object-fit: cover; height: 200px; width: 100%;" id="preview_events_header">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label for="message-text" class="col-form-label">Website Contact Header:</label>
+				<input type="file" class="form-control" id="contact_header" name="contact_header" accept=".jpg, .png, .jpeg, .gif" onchange="readURL(this,'preview_contact_header')">
+				<input type="hidden" value="<?php echo $data->contact_header ?>" name="current_contacts_header">
+				<br>
+				<div>
+					<img src="<?php echo base_url() ?>assets/images/backgrounds/<?php echo $data->contact_header ?>" alt="" style="object-fit: cover; height: 200px; width: 100%;" id="preview_contact_header">
+				</div>
+			</div>
+
+
+			<div class="form-group">
+				<label for="message-text" class="col-form-label">Website About Header:</label>
 				<input type="file" class="form-control" id="header" name="header" accept=".jpg, .png, .jpeg, .gif" onchange="readURL(this,'company_header')">
 				<input type="hidden" value="<?php echo $data->header ?>" name="current_header">
 				<br>
@@ -100,7 +130,7 @@
 		</div>
 		<div class="col-lg-2">
 		</div>
-		<div class="col-lg-9">
+		<div class="col-lg-5">
 			<div class="form-group">
 				<label for="message-text" class="col-form-label">Company Brief History</label>
 				<textarea class="form-control summernote" name="brief_background" required="" style="white-space: pre-wrap;" rows="5"><?php echo $data->brief_background ?></textarea>

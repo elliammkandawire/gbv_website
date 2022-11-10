@@ -49,6 +49,9 @@ class Home extends BaseController {
 			"footer_logo"=>$this->input->post("footer_logo"),
 			"logo"=>$this->input->post("current_logo"),
 			"header"=>$this->input->post("current_header"),
+			"events_header"=>$this->input->post("current_events_header"),
+			"programs_header"=>$this->input->post("current_programs_header"),
+			"contact_header"=>$this->input->post("current_contacts_header"),
 			"core_values"=>nl2br($this->input->post("core_values"))
 		);
 		/*check if logo is empty*/
@@ -61,6 +64,27 @@ class Home extends BaseController {
 		if ($_FILES['header']['error']!=4) {
 			$file_name=$this->do_upload("./assets/images/backgrounds","header")['upload_data']['file_name'];
 			$data['header']=$file_name;
+		}
+
+
+		/*check if Program  is empty*/
+		if ($_FILES['programs_header']['error']!=4) {
+			$file_name=$this->do_upload("./assets/images/backgrounds","programs_header")['upload_data']['file_name'];
+			$data['programs_header']=$file_name;
+		}
+
+
+		/*check if Events  is empty*/
+		if ($_FILES['events_header']['error']!=4) {
+			$file_name=$this->do_upload("./assets/images/backgrounds","events_header")['upload_data']['file_name'];
+			$data['events_header']=$file_name;
+		}
+
+
+		/*check if Contact  is empty*/
+		if ($_FILES['contact_header']['error']!=4) {
+			$file_name=$this->do_upload("./assets/images/backgrounds","contact_header")['upload_data']['file_name'];
+			$data['contact_header']=$file_name;
 		}
 
 		$this->update($this->table,$data);

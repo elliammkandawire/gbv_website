@@ -116,17 +116,17 @@
 							</div>
 						</div>
 
-						<div class="main-menu-two__right-bottom">
+						<div class="main-menu-two__right-bottom" style="background-color: whitesmoke">
 							<div class="main-menu-two__main-menu-box">
-								<a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+								<a href="#" class="mobile-nav__toggler"><i class="fa fa-bars text-danger"></i></a>
 								<ul class="main-menu__list">
 									<li>
 										<a href="<?php echo base_url() ?>">Home </a>
 									</li>
 									<li class="dropdown">
-										<a href="<?php echo base_url() ?>aboutus">About Us</a>
+										<a href="<?php echo base_url() ?>about-us">About Us</a>
 										<ul>
-											<li><a href="<?php echo base_url() ?>aboutus">History</a></li>
+											<li><a href="<?php echo base_url() ?>about-us">History</a></li>
 											<li><a href="<?php echo base_url() ?>team">Who we are</a></li>
 											<li><a href="<?php echo base_url() ?>members">Members</a></li>
 										</ul>
@@ -182,10 +182,18 @@
 
 	<?php
 	   if ($this->uri->segment(1)) {
+	   	$header=$company_data->header;
+	   	if($this->uri->segment(1)==="programs"){
+	   		$header=$company_data->programs_header;
+		}else if($this->uri->segment(1)==="events"){
+			$header=$company_data->events_header;
+		}else if($this->uri->segment(1)==="contact"){
+			$header=$company_data->contact_header;
+		}
 	?>
 	<!--Page Header Start-->
 	<section class="page-header">
-		<div class="page-header-bg" style="background-image: url(<?php echo base_url() ?>assets/images/backgrounds/<?php echo $company_data->header ?>)">
+		<div class="page-header-bg" style="background-image: url(<?php echo base_url() ?>assets/images/backgrounds/<?php echo $header ?>)">
 		</div>
 		<div class="container">
 			<div class="page-header__inner">
