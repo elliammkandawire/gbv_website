@@ -173,12 +173,12 @@
 			<div class="col-xl-12">
 				<div class="about-one__right">
 					<div class="section-title text-left">
-						<h3 class="section-title__title"><?php echo $company_data->fullname ?></h3>
+						<h6 class="section-title__title" style="font-size: 25px; text-align: center"><?php echo $company_data->fullname ?></h6>
 <!--						<span class="section-title__tagline">--><?php //echo $company_data->motto ?><!--</span>-->
 					</div>
-					<p class="about-one__text" style="padding-left: 10px">
+					<p style="padding-left: 10px; text-align: justify;">
 						<?php echo $company_data->brief_background ?>
-						<br><a href="<?php echo base_url() ?>/aboutus">Read More...</a>
+						<br><a href="<?php echo base_url() ?>/about-us">Read More...</a>
 					</p>
 					<!--					<div class="about-one__fund">-->
 					<!--						<p class="about-one__fund-text">Helped fund <span>24,537</span> Projects in-->
@@ -190,7 +190,7 @@
 								<span class="icon-solidarity"></span>
 							</div>
 							<div class="text">
-								<h5><a href="<?php echo base_url() ?>aboutus">What we believe in</a></h5>
+								<h5><a href="<?php echo base_url() ?>about-us">What we believe in</a></h5>
 								<p><?php echo $company_data->motto; ?></p>
 							</div>
 						</li>
@@ -218,7 +218,7 @@
 						</div>
 						<div class="help__content">
 							<h4 class="help__title"><a href="<?php echo base_url() ?>aboutus">Objective</a></h4>
-							<p class="help__text"><?php echo $company_data->objective ?></p>
+							<p class="help__text" style="text-align: justify;"><?php echo $company_data->objective ?></p>
 						</div>
 					</div>
 				</div>
@@ -233,8 +233,8 @@
 						</div>
 						<div class="help__content">
 							<h4 class="help__title"><a href="<?php echo base_url() ?>aboutus">Specific Objective</a></h4>
-							<p class="help__text" style="color: whitesmoke"><?php echo substr($company_data->core_values,0,200) ?>
-								<br><a href="<?php echo base_url() ?>aboutus">Read More...</a></p>
+							<p class="help__text" style="color: whitesmoke;text-align: justify;"><?php echo substr($company_data->core_values,0,200) ?>
+								<br><a href="<?php echo base_url() ?>about-us">Read More...</a></p>
 						</div>
 					</div>
 				</div>

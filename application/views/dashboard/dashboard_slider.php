@@ -12,6 +12,7 @@
             <?php $_SESSION['message']=null; } ?>
         <header class="w3-container" style="background-color: #822676">
             <h5 style="color: whitesmoke">ALL SLIDERS</h5>
+			<button class="btn btn-success" data-toggle="modal" data-target="#add" onclick="add_summary_note()" data-whatever="@mdo"><i class="fa fa-plus"></i> Add</button>
 		</header>
     </div>
     <div id="container" style="width: 100%;">
@@ -23,6 +24,7 @@
                 <div class="desc"><?php echo $item->title;  ?></div>
                 <div class="container">
                     <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#edit" data-whatever="@mdo" onclick="edit_slider('<?php echo $item->slug; ?>')"><i class="fa fa-edit"></i></button>
+					<button class="btn btn-warning btn-sm" onclick="delete_('<?php echo $item->slug; ?>','<?php echo $item->title; ?>','Confirm deleting Slider with title ','slider/delete')"><i class="fa fa-trash"></i></button>
                 </div>
             </div>
         <?php endforeach; ?>
@@ -51,25 +53,25 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form method="POST" action="add_slider" enctype="multipart/form-data">
+				<?php echo form_open_multipart('slider/add');?>
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="message-text" class="col-form-label">Title</label>
-                                <input  type="text" class="form-control" name="title">
+                                <input  type="text" class="form-control" name="title" required>
                             </div>
                             <div class="form-group">
                                 <label for="message-text" class="col-form-label">Details</label>
-                                <textarea class="form-control summernote" rows="16" name="description"></textarea>
+                                <textarea class="form-control summernote" rows="16" name="description" required></textarea>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <label for="message-text" class="col-form-label">News Artwork:</label>
+                                <label for="message-text" class="col-form-label">Slider Artwork:</label>
                                 <input type="file" class="form-control" name="picture" accept=".jpg, .png, .jpeg, .gif" required="" onchange="readURL(this,'picture')">
                             </div>
                             <div>
-                                <img src="#" alt="" style="object-fit: cover; height: 200px; width: 50%;" id="picture">
+                                <img src="#" alt="" style="object-fit: cover; height: 200px; width: 100%;" id="picture">
                             </div>
                             <br>
                         </div>
@@ -79,7 +81,7 @@
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 <button type="submit" class="btn btn-primary">Save</button>
             </div>
-            </form>
+			<?php echo form_close(); ?>
         </div>
     </div>
 </div>

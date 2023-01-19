@@ -7,7 +7,7 @@ class Slider extends BaseController {
 	private $admin_url="slider";
 	public function index()
 	{
-		$data["data"]=$this->readDataWithOrder($this->table,"position","ASC");
+		$data["data"]=$this->readDataWithOrder($this->table,"date","DESC");
 		$data["title"]="data";
 		$this->addDashboardHeaderAndFooterAndMenu("dashboard/dashboard_slider",$data);
 	}
@@ -23,10 +23,15 @@ class Slider extends BaseController {
 		return json_encode($this->get_details($this->table,"slug", $slug)[0]);
 	}
 
+	public function delete($slug){
+		$this->data_model->delete($this->table,"slug",$slug);
+		echo true;
+	}
+
 	public function add(){
 		$this->checkIfLoggedIn();
 		$data=array(
-			"slug"=>$this->removeHtmlTags($this->url($this->input->post("title")).date("yyyyMMddHs")),
+			"slug"=>$this->removeHtmlTags($this->url($this->input->post("title"))."-".date('m_d_Y_h:i:s')),
 			"title"=>$this->removeHtmlTags($this->input->post("title")),
 			"description"=>nl2br($this->input->post("description")),
 			"picture"=>$this->removeHtmlTags($this->input->post("current_picture"))

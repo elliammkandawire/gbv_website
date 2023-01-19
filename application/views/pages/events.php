@@ -11,7 +11,7 @@
 					<!--Events One Single Start-->
 					<div class="events-one__single">
 						<div class="events-one__img">
-							<img src="<?php echo base_url()?>assets/images/events/<?php echo $event->picture ?>" alt="">
+							<img style="object-fit: cover; height: 400px; width: 100%;" src="<?php echo base_url()?>assets/images/events/<?php echo $event->picture ?>" alt="">
 <!--							<div class="events-one__date">-->
 <!---->
 <!--							</div>-->

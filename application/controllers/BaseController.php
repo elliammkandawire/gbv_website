@@ -10,7 +10,7 @@ class BaseController extends CI_Controller {
 	{
 		$data["company_data"]=($this->data_model->company_data()[0]);
 		$data["member_organisation"]=$this->readDataWithOrder("member","name","ASC");
-		$data["sliders"]=$this->readDataWithOrder("slider","position","ASC");
+		$data["sliders"]=$this->readDataWithOrder("slider","date","desc");
 		$data["latest_news"]=$this->data_model->selectFewElements("news","date", "desc", "5");
 		$data["services"]=$this->data_model->readData("services");
 		$data["gallery"]=$this->readDataWithOrder("gallary","date","DESC");

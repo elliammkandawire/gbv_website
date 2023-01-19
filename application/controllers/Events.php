@@ -48,7 +48,7 @@ class Events extends BaseController {
 	}
 
 	public function getData($ref){
-		$all_data=$this->readDataWithOrder($this->table,"event_date","ASC");
+		$all_data=$this->readDataWithOrder($this->table,"date","desc");
 		$this->data['data']=array_slice($all_data, 0,$this->per_page);
 		$this->data['page']=$this->per_page;
 		if($ref!=null && $ref!="all"){
