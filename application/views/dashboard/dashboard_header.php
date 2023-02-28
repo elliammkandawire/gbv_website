@@ -38,7 +38,7 @@
            <div class="w3-bar w3-black w3-border w3-large">
 			  <a href="<?php echo base_url(); ?>dashboard" class="w3-bar-item w3-button w3-black"><i class="fa fa-home"></i></a>
 			  <a href="<?php echo base_url(); ?>index.php" class="w3-bar-item w3-button"><i class="fa fa-globe"></i></a>
-			  <a href="<?php echo base_url(); ?>logout" class="w3-bar-item w3-button"><i class="fa fa-sign-out"></i></a>
+			  <a href="#" onclick="logout()" class="w3-bar-item w3-button"><i class="fa fa-sign-out"></i></a>
 			</div>
        </div>
    </div>
@@ -69,7 +69,7 @@
                             <a href="<?php echo base_url() ?>gallery" class="list-group-item"><i class="fa fa-camera"></i> Gallery</a>
 							<a href="<?php  echo base_url() ?>admin_resources" class="list-group-item"><i class="fa fa-book"></i> Resources</a>
 							<a href="<?php echo base_url(); ?>" target="_blank" class="list-group-item"><i class="fa fa-globe"></i> Website</a>
-							<a href="<?php echo base_url(); ?>logout"  class="list-group-item"><i class="fa fa-sign-out"></i> Logout</a>
+							<a href="#" onclick="logout()"  class="list-group-item"><i class="fa fa-sign-out"></i> Logout</a>
 							
 						</ul>
 						
@@ -78,4 +78,15 @@
 
 
 
+				<script>
+					//console.log("Hello")
+					function logout(){
+						let text = "Confirm logging out. Save all works before you logout!\nEither OK or Cancel.";
+						if (confirm(text) == true) {
+							window.location.href=`<?php echo base_url(); ?>`+"/logout"
+						} else {
+							text = "You canceled!";
+						}
+					}
+				</script>
 

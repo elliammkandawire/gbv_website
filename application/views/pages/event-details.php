@@ -7,12 +7,16 @@
 				<div class="col-xl-8 col-lg-7">
 					<div class="event-details__left">
 						<div class="event-details__top">
-							<div class="event-details__date">
-								<p><?php
-									$date=date_create($event_details->event_date);
-									echo date_format($date,"d M, Y");
-									?></p>
+							<div class="news-details__img">
+								<img style="object-fit: cover; height: 400px; margin-bottom: 10px" src="<?php echo base_url()?>assets/images/events/<?php echo $event_details->picture ?>" alt="">
+								<div class="event-details__date">
+									<p><?php
+										$date=date_create($event_details->event_date);
+										echo date_format($date,"d M, Y");
+										?></p>
+								</div>
 							</div>
+
 							<h3 class="event-details__title"><?php  echo $event_details->name ?></h3>
 							<p class="event-details__text-1"><?php echo $event_details->details ?></p>
 						</div>

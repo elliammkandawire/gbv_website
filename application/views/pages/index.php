@@ -210,7 +210,7 @@
 	<div class="container">
 		<div class="row">
 			<!--Help Single Start-->
-			<div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="200ms">
+			<div class="col-xl-12 col-lg-12 wow fadeInUp" data-wow-delay="200ms">
 				<div class="help__single">
 					<div class="help__single-inner">
 						<div class="help__icon">
@@ -225,7 +225,7 @@
 			</div>
 			<!--Help Single End-->
 			<!--Help Single Start-->
-			<div class="col-xl-5 col-lg-5 wow fadeInUp" data-wow-delay="100ms">
+			<div class="col-xl-12 col-lg-12 wow fadeInUp" data-wow-delay="100ms">
 				<div class="help__single">
 					<div class="help__single-inner">
 						<div class="help__icon">
@@ -234,7 +234,7 @@
 						<div class="help__content">
 							<h4 class="help__title"><a href="<?php echo base_url() ?>aboutus">Specific Objective</a></h4>
 							<p class="help__text" style="color: whitesmoke;text-align: justify;"><?php echo substr($company_data->core_values,0,200) ?>
-								<br><a href="<?php echo base_url() ?>about-us">Read More...</a></p>
+<!--								<br><a href="--><?php //echo base_url() ?><!--about-us">Read More...</a></p>-->
 						</div>
 					</div>
 				</div>

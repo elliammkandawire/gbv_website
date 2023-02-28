@@ -84,7 +84,8 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
-                                <p class="site-footer__bottom-text">&copy; All Copyright <?php echo date("Y") ?> by <a href="<?php echo base_url() ?>"><?php echo $company_data->fullname ?></a>
+                                <p class="site-footer__bottom-text">&copy; All Copyright <?php echo date("Y") ?> by <a href="<?php echo base_url() ?>"><?php echo $company_data->fullname ?></a>.
+									<a href="https://www.shakesolutions.net/">Designed by Shake Solutions</a>
                                 </p>
                             </div>
                         </div>

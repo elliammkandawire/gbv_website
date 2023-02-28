@@ -14,7 +14,7 @@ class News extends BaseController {
 			$page=0;
 		}
 
-		$data["data"]=array("news"=>array("content"=>$this->new_paginated($this->table,$page,10), "totalPages"=>$this->no_of_pages($this->table,10)), "publications"=>array("content"=>$this->new_paginated("publications",$page,10), "totalPages"=>$this->no_of_pages("publications",10)));
+		$data["data"]=array("news"=>array("content"=>$this->new_paginated($this->table,$page,10), "totalPages"=>$this->no_of_pages($this->table,10)));
 		$data["title"]="news";
 		$this->addWebsiteHeader("pages/news",$data);
 	}

@@ -142,12 +142,12 @@
 									<li>
 										<a href="<?php echo base_url() ?>events">Events</a>
 									</li>
-									<li>
+									<li class="dropdown">
 										<a href="<?php echo base_url() ?>resources">Resources</a>
-<!--										<ul>-->
-<!--											<li><a href="--><?php //echo base_url() ?><!--news">Articles</a></li>-->
-<!--											<li><a href="--><?php //echo base_url() ?><!--publications">Resources</a></li>-->
-<!--										</ul>-->
+										<ul>
+											<li><a href="<?php echo base_url() ?>news">Articles</a></li>
+											<li><a href="<?php echo base_url() ?>publications">Publications</a></li>
+										</ul>
 									</li>
 									<li>
 										<a href="<?php echo base_url() ?>contact">Contact</a>

@@ -36,7 +36,7 @@
 <!--   <script>-->
 <!--	   $('.summernote').summernote();-->
 <!--   </script>-->
-<!-- <script src="--><?php //echo base_url() ?><!--js/sweetalert.js"></script>-->
+
  
 
 
